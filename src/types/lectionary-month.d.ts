@@ -1,0 +1,139 @@
+declare interface ILesson {
+    full: string,
+    book: string,
+    chap: null | string,
+    verses: null | string,
+    abbr: boolean | string,
+    isApocrypha: boolean | string
+}
+
+declare type Lesson = string | ILesson
+
+declare namespace Lectionary {
+    interface Lessons {
+        lesson1: Lesson,
+        lesson2: Lesson
+    }
+    interface Days {
+        1: Lectionary.Lessons,
+        2: Lectionary.Lessons,
+        3: Lectionary.Lessons,
+        4: Lectionary.Lessons,
+        5: Lectionary.Lessons,
+        6: Lectionary.Lessons,
+        7: Lectionary.Lessons,
+        8: Lectionary.Lessons,
+        9: Lectionary.Lessons,
+        10: Lectionary.Lessons,
+        11: Lectionary.Lessons,
+        12: Lectionary.Lessons,
+        13: Lectionary.Lessons,
+        14: Lectionary.Lessons,
+        15: Lectionary.Lessons,
+        16: Lectionary.Lessons,
+        17: Lectionary.Lessons,
+        18: Lectionary.Lessons,
+        19: Lectionary.Lessons,
+        20: Lectionary.Lessons,
+        21: Lectionary.Lessons,
+        22: Lectionary.Lessons,
+        23: Lectionary.Lessons,
+        24: Lectionary.Lessons,
+        25: Lectionary.Lessons,
+        26: Lectionary.Lessons,
+        27: Lectionary.Lessons,
+        28: Lectionary.Lessons,
+        29?: Lectionary.Lessons,
+        30?: Lectionary.Lessons,
+        31?: Lectionary.Lessons,
+
+    }
+
+    // interface Month extends Lectionary.Days {}
+
+    interface Month {
+        morning: Lectionary.Days,
+        evening: Lectionary.Days
+    }
+
+    interface Year {
+        0: Lectionary.Month,
+        1: Lectionary.Month,
+        2: Lectionary.Month,
+        3: Lectionary.Month,
+        4: Lectionary.Month,
+        5: Lectionary.Month,
+        6: Lectionary.Month,
+        7: Lectionary.Month,
+        8: Lectionary.Month,
+        9: Lectionary.Month,
+        10: Lectionary.Month,
+        11: Lectionary.Month,
+        12: Lectionary.Month
+    }
+
+    interface Year {
+        jan: Lectionary.Month,
+        feb: Lectionary.Month,
+        mar: Lectionary.Month,
+        apr: Lectionary.Month,
+        may: Lectionary.Month,
+        jun: Lectionary.Month,
+        jul: Lectionary.Month,
+        aug: Lectionary.Month,
+        sept: Lectionary.Month,
+        oct: Lectionary.Month,
+        nov: Lectionary.Month,
+        dec: Lectionary.Month
+    }
+
+}
+declare interface LectionaryMonth {
+    1: Lectionary.Lessons,
+    2: Lectionary.Lessons,
+    3: Lectionary.Lessons,
+    4: Lectionary.Lessons,
+    5: Lectionary.Lessons,
+    6: Lectionary.Lessons,
+    7: Lectionary.Lessons,
+    8: Lectionary.Lessons,
+    9: Lectionary.Lessons,
+    10: Lectionary.Lessons,
+    11: Lectionary.Lessons,
+    12: Lectionary.Lessons,
+    13: Lectionary.Lessons,
+    14: Lectionary.Lessons,
+    15: Lectionary.Lessons,
+    16: Lectionary.Lessons,
+    17: Lectionary.Lessons,
+    18: Lectionary.Lessons,
+    19: Lectionary.Lessons,
+    20: Lectionary.Lessons,
+    21: Lectionary.Lessons,
+    22: Lectionary.Lessons,
+    23: Lectionary.Lessons,
+    24: Lectionary.Lessons,
+    25: Lectionary.Lessons,
+    26: Lectionary.Lessons,
+    27: Lectionary.Lessons,
+    28: Lectionary.Lessons,
+    29?: Lectionary.Lessons,
+    30?: Lectionary.Lessons,
+    31?: Lectionary.Lessons,
+
+}
+
+declare interface LectionaryYear {
+    jan: LectionaryMonth,
+    feb: LectionaryMonth,
+    mar: LectionaryMonth,
+    apr: LectionaryMonth,
+    may: LectionaryMonth,
+    jun: LectionaryMonth,
+    jul: LectionaryMonth,
+    aug: LectionaryMonth,
+    sept: LectionaryMonth,
+    oct: LectionaryMonth,
+    nov: LectionaryMonth,
+    dec: LectionaryMonth
+}
