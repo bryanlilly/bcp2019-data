@@ -171,8 +171,8 @@ const BaseCalendar: Calendar.Year = {
                     optional: {
                         ecumenical: {
                             weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'Agnes',
-                            office: 'Martyr at Romer',
+                            name: 'St. Agnes',
+                            office: 'Martyr at Rome',
                             death: 304,
                             type: Calendar.FeastType.MARTYR
                         }
@@ -641,7 +641,7 @@ const BaseCalendar: Calendar.Year = {
                     optional: {
                         ecumenical: {
                             weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'Perpetua and Her Companions',
+                            name: 'St. Perpetua, St. Felicitas and their  Companions',
                             office: 'Martyrs at Carthage',
                             death: 203,
                             type: Calendar.FeastType.MARTYR
@@ -1975,220 +1975,345 @@ const BaseCalendar: Calendar.Year = {
         days: {
             1: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            2: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            3: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            4: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.CHRISTMAS,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'Joseph of Arimathea',
+                            type: Calendar.FeastType.SAINT
+                        }
+                    }
+                }
             },
             5: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Oswald',
+                            office: 'King of Northumbria and Martyr',
+                            death: 642,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             6: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'The Transfiguration of Our Lord Jesus Christ',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
             7: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'John Mason Neale',
+                            office: 'Priest and Reformer of the Church',
+                            death: 1866,
+                            type: Calendar.FeastType.REFORMER_OF_THE_CHURCH
+                        }
+                    }
+                }
             },
             8: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Dominic',
+                            office: 'Priest and Friar',
+                            death: 1221,
+                            type: Calendar.FeastType.MONASTIC_RELIGIOUS
+                        }
+                    }
+
+                }
             },
             9: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Mary Sumner',
+                            office: 'Founder of the Mothers\' Untion and Renewer of Society',
+                            death: 1921,
+                            type: Calendar.FeastType.RENEWER_OF_SOCIETY
+                        }
+                    }
+                }
             },
             10: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Laurence',
+                            office: 'Deacon and Martyr at Rome',
+                            death: 258,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             11: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Clare',
+                            office: 'Abbess of Assisi',
+                            death: 1253,
+                            type: Calendar.FeastType.MONASTIC_RELIGIOUS
+                        }
+                    }
+                }
             },
             12: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Charles Inglis',
+                            office: 'First Bishop of Canada',
+                            death: 1787,
+                            type: Calendar.FeastType.SAINT
+                        }
+                    }
+                }
             },
             13: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Jeremy Taylor',
+                            office: 'Bishop of Down and Connor, Teacher of the Faith',
+                            death: 1667,
+                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        }
+                    }
+                }
             },
             14: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'Roger Schutz',
+                            office: 'Monk of Taizé and Ecumenist',
+                            death: 2005,
+                            type: Calendar.FeastType.ECUMENIST
+                        }
+                    }
+                }
             },
             15: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            16: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            17: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            18: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            19: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'The Virgin Mary, Mother of our Lord Jesus Christ',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
             20: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Bernard',
+                            office: 'Abbot of Clairvaux and Teacher of the Faith',
+                            death: 1153,
+                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        }
+                    }
+                }
             },
             21: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            22: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            23: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Jonathan Myrick Daniels',
+                            office: 'Martyr',
+                            death: 1968,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             24: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'Bartholomew the Apostle',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
             25: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            26: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Louis',
+                            office: 'King of France',
+                            death: 1270,
+                            type: Calendar.FeastType.SAINT
+                        }
+                    }
+                }
             },
             27: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Monica',
+                            office: 'Mother of St. Augustine of Hippo',
+                            death: 387,
+                            type: Calendar.FeastType.SAINT
+                        }
+                    }
+                }
             },
             28: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Augustine of Hippo',
+                            office: 'Bishop of Hippo and Teacher of the Faith',
+                            death: 430,
+                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        }
+                    }
+                }
             },
             29: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'The Beheading of John the Baptist',
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             30: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Charles Chapman Grafton',
+                            office: 'Bishop of Fond du Lac and Ecumenist',
+                            death: 1912,
+                            type: Calendar.FeastType.ECUMENIST
+                        }
+                    }
+                }
             },
             31: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'St. Aidan',
+                            office: 'Abbot-Bishop of Lindisfarne, Missionary to Northumbria',
+                            death: 651,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             }
         }
     },
@@ -2196,222 +2321,350 @@ const BaseCalendar: Calendar.Year = {
         id: 'sep',
         name: 'September',
         days: {
-            1: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
             2: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            3: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'The Martyrs of Papua New Guinea',
+                            death: [1901, 1942],
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             4: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'St. Birinus',
+                            office: 'Bishop of Dorchester and Evangelist to Wessex',
+                            death: 650,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             },
             5: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. (Mother) Teresa of Calcutta',
+                            office: 'Renewer of Society',
+                            death: 1997,
+                            type: Calendar.FeastType.RENEWER_OF_SOCIETY
+                        }
+                    }
+                }
             },
             6: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Alan Gardiner',
+                            office: 'Missionary and Founder of SAMS',
+                            death: 1851,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             },
             7: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            8: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Hannah More',
+                            office: 'Renewer of Society and Founder of Sunday Schools',
+                            death: 1833,
+                            type: Calendar.FeastType.RENEWER_OF_SOCIETY
+                        }
+                    }
+                }
             },
             9: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Constance and her Companions',
+                            office: 'Martyrs of Memphis',
+                            death: 1878,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             10: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            11: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Alexander Crummell',
+                            office: 'Priest and Missionary to Liberia',
+                            death: 1898,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             },
             12: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'John Henry Hobart',
+                            office: 'Bishop of New York and Reformer of the Church',
+                            death: 1830,
+                            type: Calendar.FeastType.REFORMER_OF_THE_CHURCH
+                        }
+                    }
+                }
             },
             13: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. John Chrysostom',
+                            office: 'Bishop of Constantinople and Teacher of the Faith',
+                            death: 407,
+                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        }
+                    }
+                }
             },
             14: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'Holy Cross Day',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
             15: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Cyprian',
+                            office: 'Bishop of Carthage and Martyr',
+                            death: 258,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             16: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'St. Ninian',
+                            office: 'Bishop of Galloway and Missionary to the Picts',
+                            death: 432,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             },
             17: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            18: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Edward Bouverie Pusey',
+                            office: 'Priest and Teacher of the Faith',
+                            death: 1882,
+                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        }
+                    }
+                }
             },
             19: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'St. Theodore of Tarsus',
+                            office: 'Artchbishop of Canterbury',
+                            death: 690,
+                            type: Calendar.FeastType.SAINT
+                        }
+                    }
+                }
             },
             20: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'John Coleridge Patteson and his Companions',
+                            office: 'Bishop of Melanesia',
+                            death: 1871,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             21: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            22: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            23: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            24: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'Matthew, Apostle and Evangelist',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
             25: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'Sergius',
+                            office: 'Monk and Reformer of the Church in Russia',
+                            death: 1392,
+                            type: Calendar.FeastType.REFORMER_OF_THE_CHURCH
+                        }
+                    }
+                }
             },
             26: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Lancelot Andrewes',
+                            office: 'Bishop of Winchester and Teacher of the Faith',
+                            death: 1626,
+                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        }
+                    }
+                }
             },
             27: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            28: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Wilson Carlile',
+                            office: 'Evangelist and Founder of the Church Army',
+                            death: 1942,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             },
             29: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'Holy Michael and All Angels',
+                        // office: 'Priest and Teacher of the Faith',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
             30: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            31: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Jerome',
+                            office: 'Monk of Bethlehem and Translator of the Bible',
+                            death: 420,
+                            type: Calendar.FeastType.MONASTIC_RELIGIOUS
+                        }
+                    }
+                }
             }
         }
     },
@@ -2421,221 +2674,297 @@ const BaseCalendar: Calendar.Year = {
         days: {
             1: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            2: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Remigius',
+                            office: 'Bishop of Reims and Missionary to the Franks',
+                            death: 533,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             },
             3: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'George Bell',
+                            office: 'Advocate for the Confession Church, Bishop and Ecumenist',
+                            death: 1958,
+                            type: Calendar.FeastType.ECUMENIST
+                        }
+                    }
+                }
             },
             4: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            5: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Francis of Assis',
+                            office: 'Friar and Deacon, Reformer of the Church',
+                            death: 1226,
+                            type: Calendar.FeastType.MONASTIC_RELIGIOUS
+                        }
+                    }
+                }
             },
             6: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            7: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            8: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'William Tyndale',
+                            office: 'Priest, Translator of the Bible, and Martyr',
+                            death: 1536,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             9: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Robert Grosseteste',
+                            office: 'Bishop of Lincoln',
+                            death: 1253,
+                            type: Calendar.FeastType.SAINT
+                        }
+                    }
+                }
             },
             10: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'St. Paulinus',
+                            office: 'Bishop of York and Missionary',
+                            death: 644,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             },
             11: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Philip',
+                            office: 'Deacon and Evangelist',
+                            type: Calendar.FeastType.ECUMENIST
+                        }
+                    }
+                }
             },
             12: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Cecil Frances Alexander',
+                            office: 'Hymn-writer and Teacher of the Faith',
+                            death: 1895,
+                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        }
+                    }
+                }
             },
             13: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'St. Edward the Confessor',
+                            office: 'King of England',
+                            death: 1066,
+                            type: Calendar.FeastType.SAINT
+                        }
+                    }
+                }
             },
             14: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Samuel Isaac Joseph Schereschewsky',
+                            office: 'Bishop of Shanghai',
+                            death: 1906,
+                            type: Calendar.FeastType.PASTOR
+                        }
+                    }
+                }
             },
             15: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Teresa of Ávila',
+                            office: 'Nun and Reformer of the Church',
+                            death: 1582,
+                            type: Calendar.FeastType.MONASTIC_RELIGIOUS
+                        }
+                    }
+                }
             },
             16: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Hugh Latimer and Nicholas Ridley',
+                            office: 'Bishops and Martyrs',
+                            death: 1555,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             17: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    optional: {
+                        ecumenical: {
+                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                            name: 'St. Ignatius',
+                            office: 'Bishop of Antioch and Martyr',
+                            death: 115,
+                            type: Calendar.FeastType.MARTYR
+                        }
+                    }
+                }
             },
             18: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'St. Luke the Evangelist and Companion of Paul',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
             19: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            20: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            21: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            22: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Henry Martyn',
+                            office: 'Priest and Missionary to India and Persia',
+                            death: 1812,
+                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        }
+                    }
+                }
             },
             23: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            24: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            25: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'James of Jerusalem, Bishop and Martyr, Brother of Our Lord',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
             26: {
                 isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            27: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                hasOptionalCelebrations: true,
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.WHITE,
+                celebrations: {
+                    optional: {
+                        anglican: {
+                            weight: Calendar.FeastTypeWeights.ANGLICAN,
+                            name: 'Alfred the Great',
+                            office: 'King of the West Saxons and Reformer of the Church',
+                            death: 899,
+                            type: Calendar.FeastType.REFORMER_OF_THE_CHURCH
+                        }
+                    }
+                }
             },
             28: {
-                isFeastDay: false,
+                isFeastDay: true,
                 hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
+                season: Calendar.Seasons.ORDINARY,
+                color: Calendar.Colors.RED,
+                celebrations: {
+                    feast: {
+                        weight: Calendar.FeastTypeWeights.HOLY_DAY,
+                        title: 'Simon and Jude, Apostles',
+                        type: Calendar.FeastType.HOLY_DAY
+                    }
+                }
             },
-            29: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            30: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            },
-            31: {
-                isFeastDay: false,
-                hasOptionalCelebrations: false,
-                season: null,
-                color: 'green',
-                celebrations: null
-            }
         }
     },
     10: {
