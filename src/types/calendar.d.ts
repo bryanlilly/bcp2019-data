@@ -59,47 +59,14 @@ declare namespace Calendar {
     }
 
     type Commemoration = RedLetterCommemoration | BlackLetterCommemoration
-    // interface Commemoration {
-    //     isRedLetter: Boolean,
-    //     weight: Calendar.FeastTypeWeights,
-    //     title?: String,
-    //     name?: String,
-    //     office?: String,
-    //     death?: number | number[]
-    //     subtype?: Calendar.FeastType | Calendar.FeastType[],
-    //     type?: Calendar.FeastType | Calendar.FeastType[]
-    // }
 
     interface Day {
         isFeastDay: boolean,
         // hasOptionalCelebrations?: boolean,
         hasOptionalFeast: boolean,
         season: null | Seasons | string,
-        color?: null | Colors | string,
+        color?: null | Colors,
         commemorations: null | Commemoration[]
-        // {
-        //     feast?: undefined | {
-        //         weight: FeastTypeWeights.PRINCIPAL | FeastTypeWeights.HOLY_DAY,
-        //         title: string,
-        //         type: FeastType | FeastType[]
-        //     },
-        //     optional?: {
-        //         anglican?: {
-        //             weight: Calendar.FeastTypeWeights.ANGLICAN,
-        //             name: string,
-        //             office?: string,
-        //             death?: number | number[],
-        //             type: Calendar.FeastType | Calendar.FeastType[]
-        //         } | undefined | null
-        //         ecumenical?: {
-        //             weight: Calendar.FeastTypeWeights.ECUMENICAL,
-        //             name: string,
-        //             office?: string,
-        //             death?: number | number[],
-        //             type: Calendar.FeastType | Calendar.FeastType[]
-        //         } | undefined | null
-        //     }
-        // } |
     }
 
     interface Month {
