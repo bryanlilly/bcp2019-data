@@ -7,7 +7,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -21,7 +21,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -40,7 +40,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.EPIPHANY,
-                celebrations:  [
+                commemorations:  [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.PRINCIPAL,
@@ -55,7 +55,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -74,7 +74,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -93,7 +93,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -109,7 +109,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -125,7 +125,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -139,7 +139,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -155,7 +155,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -174,7 +174,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -190,7 +190,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -206,7 +206,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -220,7 +220,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -235,7 +235,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -250,7 +250,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -269,7 +269,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -288,7 +288,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -304,7 +304,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -329,7 +329,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -345,7 +345,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -360,7 +360,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -379,7 +379,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -394,7 +394,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                         {
                             isRedLetter: false,
                             weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -410,7 +410,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -426,7 +426,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -442,7 +442,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -467,7 +467,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -487,7 +487,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -506,7 +506,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -522,7 +522,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -538,7 +538,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -557,7 +557,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.PRINCIPAL,
@@ -571,7 +571,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -587,7 +587,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -612,7 +612,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -631,7 +631,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -650,7 +650,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -669,7 +669,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -685,7 +685,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -704,7 +704,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -723,7 +723,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -742,7 +742,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -761,7 +761,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -780,7 +780,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.LENT,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -795,7 +795,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -815,7 +815,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -833,7 +833,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -849,7 +849,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -867,7 +867,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -882,7 +882,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -901,7 +901,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -920,7 +920,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -942,7 +942,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -961,7 +961,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -979,7 +979,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -998,7 +998,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1017,7 +1017,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1036,7 +1036,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1056,7 +1056,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1075,7 +1075,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1094,7 +1094,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1113,7 +1113,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1131,7 +1131,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1147,7 +1147,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1167,7 +1167,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -1181,7 +1181,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1203,7 +1203,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -1217,7 +1217,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1236,7 +1236,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1252,7 +1252,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1271,7 +1271,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1287,7 +1287,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1303,7 +1303,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1323,7 +1323,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1340,7 +1340,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1356,7 +1356,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1375,7 +1375,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1395,7 +1395,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1414,7 +1414,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1430,7 +1430,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1446,7 +1446,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -1467,7 +1467,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1486,7 +1486,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1502,7 +1502,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1518,7 +1518,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1537,7 +1537,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1557,7 +1557,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1576,7 +1576,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1594,7 +1594,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1613,7 +1613,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1629,7 +1629,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -1643,7 +1643,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1659,7 +1659,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1675,7 +1675,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1691,7 +1691,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1710,7 +1710,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                             isRedLetter: false,
                             weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1726,7 +1726,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -1740,7 +1740,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1759,7 +1759,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1778,7 +1778,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -1798,7 +1798,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1814,7 +1814,7 @@ const BaseCalendar: Calendar.Year = {
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
                 color: Calendar.Colors.WHITE,
-                celebrations: [
+                commemorations: [
                     {
                             isRedLetter: false,
                             weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1829,7 +1829,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1845,7 +1845,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1864,7 +1864,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1884,7 +1884,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1900,7 +1900,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -1916,7 +1916,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1935,7 +1935,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1954,7 +1954,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -1970,7 +1970,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -1984,7 +1984,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2003,7 +2003,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -2017,7 +2017,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2032,7 +2032,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2051,7 +2051,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2066,7 +2066,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2088,7 +2088,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2103,7 +2103,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2119,7 +2119,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -2134,7 +2134,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2153,7 +2153,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2172,7 +2172,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2188,7 +2188,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2204,7 +2204,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2220,7 +2220,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2236,7 +2236,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2255,7 +2255,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2274,7 +2274,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -2289,7 +2289,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2308,7 +2308,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2324,7 +2324,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -2338,7 +2338,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2354,7 +2354,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2370,7 +2370,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2389,7 +2389,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2404,7 +2404,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2423,7 +2423,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2448,7 +2448,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2464,7 +2464,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2483,7 +2483,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2502,7 +2502,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2518,7 +2518,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2534,7 +2534,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2550,7 +2550,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2569,7 +2569,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2588,7 +2588,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2607,7 +2607,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -2621,7 +2621,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2637,7 +2637,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2656,7 +2656,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2675,7 +2675,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2691,7 +2691,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2707,7 +2707,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -2721,7 +2721,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2740,7 +2740,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2759,7 +2759,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2775,7 +2775,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -2789,7 +2789,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2811,7 +2811,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2830,7 +2830,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2849,7 +2849,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2868,7 +2868,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2887,7 +2887,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2903,7 +2903,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2922,7 +2922,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -2937,7 +2937,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2953,7 +2953,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2969,7 +2969,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -2985,7 +2985,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3004,7 +3004,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3023,7 +3023,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3042,7 +3042,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3056,7 +3056,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3075,7 +3075,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3090,7 +3090,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3106,7 +3106,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3126,7 +3126,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3140,7 +3140,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3155,7 +3155,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3174,7 +3174,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3189,7 +3189,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3208,7 +3208,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3227,7 +3227,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3246,7 +3246,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3262,7 +3262,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3281,7 +3281,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3297,7 +3297,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3316,7 +3316,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3335,7 +3335,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3354,7 +3354,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3370,7 +3370,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3386,7 +3386,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3402,7 +3402,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3418,7 +3418,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3437,7 +3437,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3453,7 +3453,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3469,7 +3469,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3489,7 +3489,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3505,7 +3505,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3521,7 +3521,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3540,7 +3540,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3559,7 +3559,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3575,7 +3575,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3594,7 +3594,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3613,7 +3613,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ECUMENICAL,
@@ -3629,7 +3629,7 @@ const BaseCalendar: Calendar.Year = {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     celebrations: [
+            //     commemorations: [
             //         {
             //              weight: Calendar.FeastTypeWeights.ANGLICAN,
             //              name: 'O Sapientia,
@@ -3643,7 +3643,7 @@ const BaseCalendar: Calendar.Year = {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     celebrations:  [
+            //     commemorations:  [
             //          {
             //              weight: Calendar.FeastTypeWeights.ANGLICAN,
             //              name: 'O Adonai',
@@ -3657,7 +3657,7 @@ const BaseCalendar: Calendar.Year = {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     celebrations:  [
+            //     commemorations:  [
             //          {
             //              weight: Calendar.FeastTypeWeights.ANGLICAN,
             //              name: 'O Radix Jesse',
@@ -3671,7 +3671,7 @@ const BaseCalendar: Calendar.Year = {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     celebrations:  [
+            //     commemorations:  [
             //          {
             //              weight: Calendar.FeastTypeWeights.ANGLICAN,
             //              name: 'O Clavis David',
@@ -3685,7 +3685,7 @@ const BaseCalendar: Calendar.Year = {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     celebrations:  [
+            //     commemorations:  [
             //          {
             //              weight: Calendar.FeastTypeWeights.ANGLICAN,
             //              name: 'O Oriens',
@@ -3699,7 +3699,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3719,7 +3719,7 @@ const BaseCalendar: Calendar.Year = {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: Calendar.Seasons.ADVENT,
-            //     celebrations:  [
+            //     commemorations:  [
             //          {
             //              weight: Calendar.FeastTypeWeights.ANGLICAN,
             //              name: 'O Emmanuel,
@@ -3733,7 +3733,7 @@ const BaseCalendar: Calendar.Year = {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     celebrations:  [
+            //     commemorations:  [
             //          {
             //              weight: Calendar.FeastTypeWeights.ANGLICAN,
             //              name: 'O Virgo Virginum,
@@ -3747,7 +3747,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.PRINCIPAL,
@@ -3762,7 +3762,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3776,7 +3776,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3790,7 +3790,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
@@ -3804,7 +3804,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,
@@ -3823,7 +3823,7 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.CHRISTMAS,
-                celebrations: [
+                commemorations: [
                     {
                         isRedLetter: false,
                         weight: Calendar.FeastTypeWeights.ANGLICAN,

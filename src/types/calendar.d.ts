@@ -76,7 +76,7 @@ declare namespace Calendar {
         hasOptionalFeast: boolean,
         season: null | Seasons | string,
         color?: null | Colors | string,
-        celebrations: null | Commemoration[]
+        commemorations: null | Commemoration[]
         // {
         //     feast?: undefined | {
         //         weight: FeastTypeWeights.PRINCIPAL | FeastTypeWeights.HOLY_DAY,
