@@ -22,9 +22,9 @@ declare namespace Calendar {
         HOLY_DAY, // aka 'red-letter days'
         MARTYR, // start aka 'black-letter-days
         MISSIONARY_EVANGELIST,
-        PASTOR,
         TEACHER_OF_FAITH,
         MONASTIC_RELIGIOUS,
+        PASTOR,
         ECUMENIST,
         REFORMER_OF_THE_CHURCH,
         RENEWER_OF_SOCIETY,
@@ -39,34 +39,67 @@ declare namespace Calendar {
         ECUMENICAL = 3
     }
 
+    interface RedLetterCommemoration {
+        isRedLetter: true,
+        weight: FeastTypeWeights.PRINCIPAL | FeastTypeWeights.HOLY_DAY,
+        title: String,
+        shortTitle?: String,
+        type: FeastType | FeastType[],
+        color: Colors
+    }
+
+    interface BlackLetterCommemoration {
+        isRedLetter: false,
+        weight: FeastTypeWeights.ANGLICAN | FeastTypeWeights.ECUMENICAL,
+        name: String,
+        office: String | null,
+        death?: number[]
+        type: FeastType | FeastType[],
+        color: Colors
+    }
+
+    type Commemoration = RedLetterCommemoration | BlackLetterCommemoration
+    // interface Commemoration {
+    //     isRedLetter: Boolean,
+    //     weight: Calendar.FeastTypeWeights,
+    //     title?: String,
+    //     name?: String,
+    //     office?: String,
+    //     death?: number | number[]
+    //     subtype?: Calendar.FeastType | Calendar.FeastType[],
+    //     type?: Calendar.FeastType | Calendar.FeastType[]
+    // }
+
     interface Day {
         isFeastDay: boolean,
-        hasOptionalCelebrations: boolean,
-        season: null | Calendar.Seasons | string,
-        color: null | Calendar.Colors | string,
-        celebrations: null | {
-            feast?: undefined | {
-                weight: Calendar.FeastTypeWeights.PRINCIPAL | Calendar.FeastTypeWeights.HOLY_DAY,
-                title: string,
-                type: Calendar.FeastType
-            },
-            optional?: {
-                anglican?: {
-                    weight: Calendar.FeastTypeWeights.ANGLICAN,
-                    name: string,
-                    office?: string,
-                    death?: number | number[],
-                    type: Calendar.FeastType
-                } | undefined | null
-                ecumenical?: {
-                    weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                    name: string,
-                    office?: string,
-                    death?: number | number[],
-                    type: Calendar.FeastType
-                } | undefined | null
-            }
-        }
+        // hasOptionalCelebrations?: boolean,
+        hasOptionalFeast: boolean,
+        season: null | Seasons | string,
+        color?: null | Colors | string,
+        celebrations: null | Commemoration[]
+        // {
+        //     feast?: undefined | {
+        //         weight: FeastTypeWeights.PRINCIPAL | FeastTypeWeights.HOLY_DAY,
+        //         title: string,
+        //         type: FeastType | FeastType[]
+        //     },
+        //     optional?: {
+        //         anglican?: {
+        //             weight: Calendar.FeastTypeWeights.ANGLICAN,
+        //             name: string,
+        //             office?: string,
+        //             death?: number | number[],
+        //             type: Calendar.FeastType | Calendar.FeastType[]
+        //         } | undefined | null
+        //         ecumenical?: {
+        //             weight: Calendar.FeastTypeWeights.ECUMENICAL,
+        //             name: string,
+        //             office?: string,
+        //             death?: number | number[],
+        //             type: Calendar.FeastType | Calendar.FeastType[]
+        //         } | undefined | null
+        //     }
+        // } |
     }
 
     interface Month {
