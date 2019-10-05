@@ -3126,27 +3126,28 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
-                celebrations: {
-                    feast: {
+                celebrations: [
+                    {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
                         title: 'All Saint\'s Day',
-                        type: Calendar.FeastType.HOLY_DAY
+                        type: [Calendar.FeastType.HOLY_DAY],
+                        color: Calendar.Colors.WHITE,
                     }
-                }
+                ]
             },
             2: {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.RED,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'Commemoration of the Faithul Departed',
-                            type: Calendar.FeastType.MARTYR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'Commemoration of the Faithul Departed',
+                        office: null,
+                        type: [Calendar.FeastType.MARTYR],
+                        color: Calendar.Colors.RED,
                     }
                 ]
             },
@@ -3154,15 +3155,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'Richard Hooker',
-                            office: 'Priest and Teacher of the Faith',
-                            death: 1600,
-                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'Richard Hooker',
+                        office: 'Priest and Teacher of the Faith',
+                        death: [1600],
+                        type: [
+                            Calendar.FeastType.PASTOR,
+                            Calendar.FeastType.TEACHER_OF_FAITH
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3170,14 +3174,14 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'Elizabeth and Zechariah',
-                            office: 'Parents of John the Baptist',
-                            type: Calendar.FeastType.SAINT
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'Elizabeth and Zechariah',
+                        office: 'Parents of John the Baptist',
+                        type: [Calendar.FeastType.SAINT],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3185,15 +3189,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'William Temple',
-                            office: 'Archbishop of Canterbury and Teacher of the Faith',
-                            death: 1944,
-                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'William Temple',
+                        office: 'Archbishop of Canterbury and Teacher of the Faith',
+                        death: [1944],
+                        type: [
+                            Calendar.FeastType.PASTOR,
+                            Calendar.FeastType.TEACHER_OF_FAITH
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3201,15 +3208,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Willibrord',
-                            office: 'Archbishop of Utrecht and Missionary to Frisia',
-                            death: 739,
-                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Willibrord',
+                        office: 'Archbishop of Utrecht and Missionary to Frisia',
+                        death: [739],
+                        type: [
+                            Calendar.FeastType.MISSIONARY_EVANGELIST,
+                            Calendar.FeastType.PASTOR
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3217,15 +3227,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Leo the Great',
-                            office: 'Bishop of Rome and Teacher of the Faith',
-                            death: 461,
-                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Leo the Great',
+                        office: 'Bishop of Rome and Teacher of the Faith',
+                        death: [461],
+                        type: [
+                            Calendar.FeastType.PASTOR,
+                            Calendar.FeastType.TEACHER_OF_FAITH
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3233,15 +3246,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Martin',
-                            office: 'Bishop of Tours',
-                            death: 397,
-                            type: Calendar.FeastType.SAINT
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Martin',
+                        office: 'Bishop of Tours',
+                        death: [397],
+                        type: [Calendar.FeastType.PASTOR],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3249,15 +3262,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'Charles Simeon',
-                            office: 'Priest and Evangelist',
-                            death: 1836,
-                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'Charles Simeon',
+                        office: 'Priest and Evangelist',
+                        death: [1836],
+                        type: [
+                            Calendar.FeastType.MISSIONARY_EVANGELIST,
+                            Calendar.FeastType.PASTOR
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3265,15 +3281,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'Consecration of Samuel Seabury',
-                            office: 'First Bishop in the United States',
-                            death: 1784,
-                            type: Calendar.FeastType.PASTOR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'Consecration of Samuel Seabury',
+                        office: 'First Bishop in the United States',
+                        death: [1784],
+                        type: [Calendar.FeastType.PASTOR],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3281,15 +3297,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Herman of Alaska',
-                            office: 'Monk and Missionary to the Native Alaskans',
-                            death: 1837,
-                            type: Calendar.FeastType.MISSIONARY_EVANGELIST
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Herman of Alaska',
+                        office: 'Monk and Missionary to the Native Alaskans',
+                        death: [1837],
+                        type: [
+                            Calendar.FeastType.MISSIONARY_EVANGELIST,
+                            Calendar.FeastType.MONASTIC_RELIGIOUS
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3297,15 +3316,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'St. Margaret of Scotland',
-                            office: 'Queen of Scotland, Reformer of the Church, and Renewer of Society',
-                            death: 1093,
-                            type: Calendar.FeastType.REFORMER_OF_THE_CHURCH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'St. Margaret of Scotland',
+                        office: 'Queen of Scotland, Reformer of the Church, and Renewer of Society',
+                        death: [1093],
+                        type: [
+                            Calendar.FeastType.REFORMER_OF_THE_CHURCH,
+                            Calendar.FeastType.RENEWER_OF_SOCIETY
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3313,15 +3335,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'St. Hugh of Lincoln',
-                            office: 'Bishop of Lincoln and Renewer of Society',
-                            death: 1200,
-                            type: Calendar.FeastType.RENEWER_OF_SOCIETY
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'St. Hugh of Lincoln',
+                        office: 'Bishop of Lincoln and Renewer of Society',
+                        death: [1200],
+                        type: [
+                            Calendar.FeastType.PASTOR,
+                            Calendar.FeastType.RENEWER_OF_SOCIETY
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3329,15 +3354,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'Elizabeth of Hungary',
-                            office: 'Renwer of Society',
-                            death: 1231,
-                            type: Calendar.FeastType.RENEWER_OF_SOCIETY
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'Elizabeth of Hungary',
+                        office: 'Renwer of Society',
+                        death: [1231],
+                        type: [Calendar.FeastType.RENEWER_OF_SOCIETY],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3345,15 +3370,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'St. Hilda',
-                            office: 'Abbess of Whitby',
-                            death: 680,
-                            type: Calendar.FeastType.MONASTIC_RELIGIOUS
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'St. Hilda',
+                        office: 'Abbess of Whitby',
+                        death: [680],
+                        type: [Calendar.FeastType.MONASTIC_RELIGIOUS],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3361,15 +3386,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.RED,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'St. Edmund',
-                            office: 'King of East Anglia and Martyr',
-                            death: 870,
-                            type: Calendar.FeastType.MARTYR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'St. Edmund',
+                        office: 'King of East Anglia and Martyr',
+                        death: [870],
+                        type: [Calendar.FeastType.MARTYR],
+                        color: Calendar.Colors.RED
                     }
                 ]
             },
@@ -3377,15 +3402,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.RED,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Cecilia',
-                            office: 'Martyr at Rome',
-                            death: 230,
-                            type: Calendar.FeastType.MARTYR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Cecilia',
+                        office: 'Martyr at Rome',
+                        death: [230],
+                        type: [Calendar.FeastType.MARTYR],
+                        color: Calendar.Colors.RED
                     }
                 ]
             },
@@ -3393,15 +3418,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.RED,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Clement of Rome',
-                            office: 'Bishop or Rome and Martyr',
-                            death: 100,
-                            type: Calendar.FeastType.MARTYR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Clement of Rome',
+                        office: 'Bishop or Rome and Martyr',
+                        death: [100],
+                        type: [
+                            Calendar.FeastType.MARTYR,
+                            Calendar.FeastType.PASTOR
+                        ],
+                        color: Calendar.Colors.RED
                     }
                 ]
             },
@@ -3409,15 +3437,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ORDINARY,
-                color: Calendar.Colors.RED,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Catherine of Alexandria',
-                            office: 'Martyr',
-                            death: 305,
-                            type: Calendar.FeastType.MARTYR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Catherine of Alexandria',
+                        office: 'Martyr',
+                        death: [305],
+                        type: [Calendar.FeastType.MARTYR],
+                        color: Calendar.Colors.RED
                     }
                 ]
             },
@@ -3425,15 +3453,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                color: null,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'Clive Staples Lewis',
-                            office: 'Teacher of the Faith',
-                            death: 1963,
-                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'Clive Staples Lewis',
+                        office: 'Teacher of the Faith',
+                        death: [1963],
+                        type: [Calendar.FeastType.TEACHER_OF_FAITH],
+                        color: Calendar.Colors.WHITE,
                     }
                 ]
             },
@@ -3441,15 +3469,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: null,
-                color: null,
-                celebrations: {
-                    feast: {
+                celebrations: [
+                    {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
-                        title: 'Andrew the Apostle',
-                        type: Calendar.FeastType.HOLY_DAY
+                        title: 'St. Andrew the Apostle',
+                        type: [Calendar.FeastType.HOLY_DAY],
+                        color: Calendar.Colors.RED,
                     }
-                }
+                ]
             }
         }
     },
@@ -3461,15 +3489,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                color: null,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'Alfred the Great',
-                            office: 'King of the West Saxons and Reformer of the Church',
-                            death: 899,
-                            type: Calendar.FeastType.REFORMER_OF_THE_CHURCH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'Alfred the Great',
+                        office: 'King of the West Saxons and Reformer of the Church',
+                        death: [899],
+                        type: [Calendar.FeastType.REFORMER_OF_THE_CHURCH],
+                        color: Calendar.Colors.WHITE,
                     }
                 ]
             },
@@ -3477,32 +3505,34 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: null,
-                color: null,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'Alfred the Great',
-                            office: 'King of the West Saxons and Reformer of the Church',
-                            death: 899,
-                            type: Calendar.FeastType.REFORMER_OF_THE_CHURCH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'Alfred the Great',
+                        office: 'King of the West Saxons and Reformer of the Church',
+                        death: [899],
+                        type: [Calendar.FeastType.REFORMER_OF_THE_CHURCH],
+                        color: Calendar.Colors.WHITE,
                     }
                 ]
             },
-
             4: {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. John of Damascus',
-                            office: 'Priest and Teacher of the Faith',
-                            death: 760,
-                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. John of Damascus',
+                        office: 'Priest and Teacher of the Faith',
+                        death: [760],
+                        type: [
+                            Calendar.FeastType.PASTOR,
+                            Calendar.FeastType.TEACHER_OF_FAITH
+                        ],
+                        color: Calendar.Colors.WHITE,
                     }
                 ]
             },
@@ -3510,15 +3540,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Clement of Alexandria',
-                            office: 'Priest and Teacher of the Faith',
-                            death: 210,
-                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Clement of Alexandria',
+                        office: 'Priest and Teacher of the Faith',
+                        death: [210],
+                        type: [
+                            Calendar.FeastType.PASTOR,
+                            Calendar.FeastType.TEACHER_OF_FAITH
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3526,15 +3559,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Nicholas',
-                            office: 'Bishop of Myra',
-                            death: 326,
-                            type: Calendar.FeastType.SAINT
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Nicholas',
+                        office: 'Bishop of Myra',
+                        death: [326],
+                        type: [Calendar.FeastType.PASTOR],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3542,15 +3575,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Ambrose',
-                            office: 'Bishop of Milan and Teacher of the Faith',
-                            death: 397,
-                            type: Calendar.FeastType.TEACHER_OF_FAITH
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Ambrose',
+                        office: 'Bishop of Milan and Teacher of the Faith',
+                        death: [397],
+                        type: [
+                            Calendar.FeastType.PASTOR,
+                            Calendar.FeastType.TEACHER_OF_FAITH
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3558,15 +3594,18 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'Richard Baxter',
-                            office: 'Pastor and Teacher of the Faith',
-                            death: 1691,
-                            type: Calendar.FeastType.PASTOR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'Richard Baxter',
+                        office: 'Pastor and Teacher of the Faith',
+                        death: [1691],
+                        type: [
+                            Calendar.FeastType.PASTOR,
+                            Calendar.FeastType.TEACHER_OF_FAITH
+                        ],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             },
@@ -3574,15 +3613,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                color: Calendar.Colors.RED,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ECUMENICAL,
-                            name: 'St. Lucy',
-                            office: 'Martyr at Syracuse',
-                            death: 304,
-                            type: Calendar.FeastType.MARTYR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ECUMENICAL,
+                        name: 'St. Lucy',
+                        office: 'Martyr at Syracuse',
+                        death: [304],
+                        type: [Calendar.FeastType.MARTYR],
+                        color: Calendar.Colors.RED
                     }
                 ]
             },
@@ -3590,150 +3629,193 @@ const BaseCalendar: Calendar.Year = {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     color: null,
-            //     celebrations: null
+            //     celebrations: [
+            //         {
+            //              weight: Calendar.FeastTypeWeights.ANGLICAN,
+            //              name: 'O Sapientia,
+            //              office: 'O Wisdom from on high',
+            //              type: [Calendar.FeastType]
+            //              color: Calendar.Colors.PURPLE,
+            //         }
+            //     ]
             // },
             // 17: {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     color: null,
-            //     celebrations: null
+            //     celebrations:  [
+            //          {
+            //              weight: Calendar.FeastTypeWeights.ANGLICAN,
+            //              name: 'O Adonai',
+            //              office: 'O Lord of Might',
+            //              type: [Calendar.FeastType]
+            //              color: Calendar.Colors.PURPLE,
+            //          }
+            //     ]
             // },
             // 18: {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     color: null,
-            //     celebrations: null
+            //     celebrations:  [
+            //          {
+            //              weight: Calendar.FeastTypeWeights.ANGLICAN,
+            //              name: 'O Radix Jesse',
+            //              office: 'O Root of Jesse',
+            //              type: [Calendar.FeastType]
+            //              color: Calendar.Colors.PURPLE,
+            //          }
+            //     ]
             // },
             // 19: {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     color: null,
-            //     celebrations: null
+            //     celebrations:  [
+            //          {
+            //              weight: Calendar.FeastTypeWeights.ANGLICAN,
+            //              name: 'O Clavis David',
+            //              office: 'O Key of David',
+            //              type: [Calendar.FeastType]
+            //              color: Calendar.Colors.PURPLE,
+            //          }
+            //     ]
             // },
-            // 20: {
+            // 20:  {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     color: null,
-            //     celebrations: null
+            //     celebrations:  [
+            //          {
+            //              weight: Calendar.FeastTypeWeights.ANGLICAN,
+            //              name: 'O Oriens',
+            //              office: 'O Dayspring',
+            //              type: [Calendar.FeastType]
+            //              color: Calendar.Colors.PURPLE,
+            //          }
+            //     ]
             // },
             21: {
                 isFeastDay: true,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.ADVENT,
-                color: Calendar.Colors.RED,
-                celebrations: {
-                    feast: {
+                celebrations: [
+                    {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
                         title: 'Thomas the Apostle',
-                        type: Calendar.FeastType.HOLY_DAY
+                        type: [Calendar.FeastType.HOLY_DAY],
+                        color: Calendar.Colors.RED
                     },
-                    // optional: {
-                    //     anglican: {
-                    //         weight: Calendar.FeastTypeWeights.ANGLICAN,
-                    //         name: 'Alfred the Great',
-                    //         office: 'King of the West Saxons and Reformer of the Church',
-                    //         death: 899,
-                    //         type: Calendar.FeastType.REFORMER_OF_THE_CHURCH
-                    //     }
+                    //{
+                    //  weight: Calendar.FeastTypeWeights.ANGLICAN,
+                    //  name: 'O Rex Gentium',
+                    //  office: 'O Desire of Nations',
+                    //  type: Calendar.FeastType
                     // }
-                }
+                ]
             },
             // 22: {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
-            //     season: null,
-            //     color: null,
-            //     celebrations: null
+            //     season: Calendar.Seasons.ADVENT,
+            //     celebrations:  [
+            //          {
+            //              weight: Calendar.FeastTypeWeights.ANGLICAN,
+            //              name: 'O Emmanuel,
+            //              office: 'O Come, Emmanuel',
+            //              type: [Calendar.FeastType]
+            //              color: Calendar.Colors.PURPLE,
+            //          }
+            //     ]
             // },
             // 23: {
             //     isFeastDay: false,
             //     hasOptionalFeast: false,
             //     season: null,
-            //     color: null,
-            //     celebrations: null
-            // },
-            // 24: {
-            //     isFeastDay: false,
-            //     hasOptionalFeast: false,
-            //     season: null,
-            //     color: null,
-            //     celebrations: null
+            //     celebrations:  [
+            //          {
+            //              weight: Calendar.FeastTypeWeights.ANGLICAN,
+            //              name: 'O Virgo Virginum,
+            //              office: 'O Virgin of Virgins',
+            //              type: [Calendar.FeastType]
+            //              color: Calendar.Colors.PURPLE,
+            //          }
+            //     ]
             // },
             25: {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                color: Calendar.Colors.WHITE,
-                celebrations: {
-                    feast: {
+                celebrations: [
+                    {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.PRINCIPAL,
                         title: 'The Nativity of our Lord Jesus Christ, Christmas',
-                        type: Calendar.FeastType.PRINCIPAL
+                        shortTitle: 'Christmas',
+                        type: [Calendar.FeastType.PRINCIPAL],
+                        color: Calendar.Colors.WHITE
                     }
-                }
+                ]
             },
             26: {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                color: Calendar.Colors.RED,
-                celebrations: {
-                    feast: {
+                celebrations: [
+                    {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
-                        title: 'Stephen, Deacon and Martyr',
-                        type: Calendar.FeastType.HOLY_DAY
+                        title: 'St. Stephen, Deacon and Martyr',
+                        type: [Calendar.FeastType.HOLY_DAY],
+                        color: Calendar.Colors.RED
                     }
-                }
+                ]
             },
             27: {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                color: Calendar.Colors.RED,
-                celebrations: {
-                    feast: {
+                celebrations: [
+                    {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
-                        title: 'John, Apostle and Evangelist',
-                        type: Calendar.FeastType.HOLY_DAY
+                        title: 'St. John, Apostle and Evangelist',
+                        type: [Calendar.FeastType.HOLY_DAY],
+                        color: Calendar.Colors.RED
                     }
-                }
+                ]
             },
             28: {
                 isFeastDay: true,
                 hasOptionalFeast: false,
                 season: Calendar.Seasons.CHRISTMAS,
-                color: Calendar.Colors.RED,
-                celebrations: {
-                    feast: {
+                celebrations: [
+                    {
                         isRedLetter: true,
                         weight: Calendar.FeastTypeWeights.HOLY_DAY,
                         title: 'The Holy Innocents',
-                        type: Calendar.FeastType.HOLY_DAY
+                        type: [Calendar.FeastType.HOLY_DAY],
+                        color: Calendar.Colors.RED
                     }
-                }
+                ]
             },
             29: {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.CHRISTMAS,
-                color: Calendar.Colors.RED,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'Thomas Becket',
-                            office: 'Archbishop of Canterbury, Martyr',
-                            death: 1170,
-                            type: Calendar.FeastType.MARTYR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'Thomas Becket',
+                        office: 'Archbishop of Canterbury, Martyr',
+                        death: [1170],
+                        type: [
+                            Calendar.FeastType.MARTYR,
+                            Calendar.FeastType.PASTOR
+                        ],
+                        color: Calendar.Colors.RED
                     }
                 ]
             },
@@ -3741,15 +3823,15 @@ const BaseCalendar: Calendar.Year = {
                 isFeastDay: false,
                 hasOptionalFeast: true,
                 season: Calendar.Seasons.CHRISTMAS,
-                color: Calendar.Colors.WHITE,
                 celebrations: [
                     {
-                            isRedLetter: false,
-                            weight: Calendar.FeastTypeWeights.ANGLICAN,
-                            name: 'John Wyclif',
-                            office: 'Priest and Translator of the Bible into English',
-                            death: 1384,
-                            type: Calendar.FeastType.PASTOR
+                        isRedLetter: false,
+                        weight: Calendar.FeastTypeWeights.ANGLICAN,
+                        name: 'John Wyclif',
+                        office: 'Priest and Translator of the Bible into English',
+                        death: [1384],
+                        type: [Calendar.FeastType.PASTOR],
+                        color: Calendar.Colors.WHITE
                     }
                 ]
             }
