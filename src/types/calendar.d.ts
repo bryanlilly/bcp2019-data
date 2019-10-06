@@ -61,6 +61,7 @@ declare namespace Calendar {
     type Commemoration = RedLetterCommemoration | BlackLetterCommemoration
 
     interface Day {
+        id: number,
         isFeastDay: boolean,
         // hasOptionalCelebrations?: boolean,
         hasOptionalFeast: boolean,
