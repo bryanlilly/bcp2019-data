@@ -120,3 +120,5 @@ const EasterTable = {
     2119: 326,
     2120: 414
 };
+
+export default EasterTable;
