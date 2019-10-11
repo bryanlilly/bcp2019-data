@@ -1,4 +1,4 @@
-const Morning: DailyOfficeCollects = {
+const MorningOffice: DailyOfficeCollects = {
     daily: [
         {
             id: 'sunday',
@@ -55,4 +55,4 @@ const Morning: DailyOfficeCollects = {
     ]
 };
 
-export default Morning;
+export default MorningOffice;

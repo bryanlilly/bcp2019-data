@@ -1,4 +1,4 @@
-const morning = {
+const MorningOffice = {
     ordinary: <VersicleLike[]> [
         [
             {
@@ -68,4 +68,4 @@ const morning = {
     any: [] // Use in ordinary time, or any other season
 };
 
-export default morning;
+export default MorningOffice;

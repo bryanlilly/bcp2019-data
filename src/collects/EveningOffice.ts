@@ -1,6 +1,4 @@
-import '../index'
-
-const Evening: DailyOfficeCollects = {
+const EveningOffice: DailyOfficeCollects = {
     daily: [
         {
             id: 'sunday',
@@ -57,4 +55,4 @@ const Evening: DailyOfficeCollects = {
     ]
 };
 
-export default Evening;
+export default EveningOffice;

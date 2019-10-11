@@ -8,3 +8,5 @@ const SursumCorda: VersicleLike = [
         text: 'We lift them up to the Lord.'
     },
 ];
+
+export default SursumCorda;

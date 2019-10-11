@@ -1,4 +1,4 @@
-const OpenOurLips: VersicleLike = [
+const DomineLabiaMeaAperies: VersicleLike = [
     {
         speaker: 'officiant',
         text: 'O Lord, open our lips;'
@@ -8,3 +8,5 @@ const OpenOurLips: VersicleLike = [
         text: 'And our mouth shall proclaim your praise.'
     },
 ];
+
+export default DomineLabiaMeaAperies;

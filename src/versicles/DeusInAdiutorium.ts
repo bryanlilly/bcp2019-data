@@ -1,4 +1,4 @@
-const MakeSpeedToSave: VersicleLike = [
+const DeusInAdiutorium: VersicleLike = [
     {
         speaker: 'officiant',
         text: 'O God, make speed to save us;'
@@ -8,3 +8,5 @@ const MakeSpeedToSave: VersicleLike = [
         text: 'O Lord, make haste to help us.'
     },
 ];
+
+export default DeusInAdiutorium;

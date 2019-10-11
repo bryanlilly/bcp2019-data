@@ -1,5 +1,3 @@
-import '../types/canticles';
-
 const PhosHilaron: Canticle = {
     id: 'phos-hilaron',
     title: 'Phos Hilaron', // Yes, I know its Greek

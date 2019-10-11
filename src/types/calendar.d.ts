@@ -17,6 +17,20 @@ declare namespace Calendar {
         GREEN
     }
 
+    const enum ColorBridge {
+        ADVENT = Colors.PURPLE,
+        THIRDADVENT = Colors.PINK,
+        FOURTHADVENT = Colors.PINK,
+        CHRISTMAS = Colors.WHITE,
+        EPIPHANY = Colors.WHITE,
+        LENT = Colors.PURPLE,
+        PASSIONSUNDAY = Colors.RED,
+        GOODFRIDAY = Colors.RED,
+        EASTER = Colors.WHITE,
+        PENTECOST = Colors.RED,
+        ORDINARY = Colors.GREEN,
+    }
+
     const enum FeastType {
         PRINCIPAL = 0,
         HOLY_DAY, // aka 'red-letter days'
@@ -65,7 +79,7 @@ declare namespace Calendar {
         isFeastDay: boolean,
         // hasOptionalCelebrations?: boolean,
         hasOptionalFeast: boolean,
-        season: null | Seasons | string,
+        season?: Seasons,
         color?: null | Colors,
         commemorations: null | Commemoration[]
     }
