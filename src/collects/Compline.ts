@@ -27,3 +27,5 @@ const Compline: DailyOfficeCollects = {
         text: 'We give you thanks, O God, for revealing your Son Jesus Christ to us by the light of his resurrection: Grant that as we sing your glory at the close of this day, our joy may abound in the morning as we celebrate the Paschal mystery; through Jesus Christ our Lord.'
     }
 };
+
+export default Compline;
