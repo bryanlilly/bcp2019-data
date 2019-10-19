@@ -1,9 +1,9 @@
-declare interface ICanticle {
-    id: string,
-    title: string,
-    englishTitle: string,
-    scriptureRef: boolean | string,
-    text: ICanticleVersicle[]
+declare interface Canticle {
+    id: string;
+    title?: string;
+    englishTitle?: string;
+    scriptureRef: boolean | string;
+    text: Versicles;
 }
 
-declare type Canticle = ICanticle;
+declare type Canticles = {[key: string]: Canticle};

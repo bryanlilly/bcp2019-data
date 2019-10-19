@@ -1,5 +1,5 @@
 declare namespace Calendar {
-    const enum Seasons {
+    export const enum Seasons {
         ADVENT = 0,
         CHRISTMAS,
         EPIPHANY,
@@ -9,7 +9,7 @@ declare namespace Calendar {
         ORDINARY
     }
 
-    const enum Colors {
+    export const enum Colors {
         PURPLE = 0,
         RED,
         WHITE,
@@ -17,7 +17,7 @@ declare namespace Calendar {
         GREEN
     }
 
-    const enum ColorBridge {
+    export const enum ColorBridge {
         ADVENT = Colors.PURPLE,
         THIRDADVENT = Colors.PINK,
         FOURTHADVENT = Colors.PINK,
@@ -31,7 +31,7 @@ declare namespace Calendar {
         ORDINARY = Colors.GREEN,
     }
 
-    const enum FeastType {
+    export const enum FeastType {
         PRINCIPAL = 0,
         HOLY_DAY, // aka 'red-letter days'
         MARTYR, // start aka 'black-letter-days
@@ -46,56 +46,57 @@ declare namespace Calendar {
         NATIONAL
     }
 
-    enum FeastTypeWeights {
+    export enum FeastTypeWeights {
         PRINCIPAL = 0,
         HOLY_DAY = 1,
         ANGLICAN = 2,
         ECUMENICAL = 3
     }
 
-    interface RedLetterCommemoration {
-        isRedLetter: true,
-        weight: FeastTypeWeights.PRINCIPAL | FeastTypeWeights.HOLY_DAY,
-        title: String,
-        shortTitle?: String,
-        type: FeastType | FeastType[],
-        color: Colors
+    export interface RedLetterCommemoration {
+        isRedLetter: true;
+        weight: FeastTypeWeights.PRINCIPAL | FeastTypeWeights.HOLY_DAY;
+        title: string;
+        shortTitle?: string;
+        type: FeastType | FeastType[];
+        color: Colors;
     }
 
-    interface BlackLetterCommemoration {
-        isRedLetter: false,
-        weight: FeastTypeWeights.ANGLICAN | FeastTypeWeights.ECUMENICAL,
-        name: String,
-        office: String | null,
-        death?: number[]
-        type: FeastType | FeastType[],
-        color: Colors
+    export interface BlackLetterCommemoration {
+        isRedLetter: false;
+        weight: FeastTypeWeights.ANGLICAN | FeastTypeWeights.ECUMENICAL;
+        name: string;
+        office: string | null;
+        death?: number[];
+        type: FeastType | FeastType[];
+        color: Colors;
     }
 
-    type Commemoration = RedLetterCommemoration | BlackLetterCommemoration
+    export type Commemoration = RedLetterCommemoration | BlackLetterCommemoration;
 
-    interface Day {
-        id: number,
-        isFeastDay: boolean,
+    export interface Day {
+        id: number;
+        isFeastDay: boolean;
         // hasOptionalCelebrations?: boolean,
-        hasOptionalFeast: boolean,
-        season?: Seasons,
-        color?: null | Colors,
-        commemorations: null | Commemoration[]
+        hasOptionalFeast: boolean;
+        season?: Seasons;
+        color?: null | Colors;
+        commemorations: null | Commemoration[];
     }
 
-    interface Month {
-        id: string,
-        name: string,
+    export interface Month {
+        id: string;
+        name: string;
         days: {
-            [day: number]: Calendar.Day
-        }
+            [day: number]: Calendar.Day;
+        };
     }
-
-    interface Year {
-        [month: number]: Calendar.Month
+    export interface Year {
+        [month: number]: Calendar.Month;
     }
-    interface Year  {
-        [month: string]: Calendar.Month
-    }
+    // export interface Year  {
+    //     [month: string]: Calendar.Month
+    // }
 }
+
+export = Calendar
