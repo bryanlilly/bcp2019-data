@@ -1,4 +1,4 @@
-const jan: Lectionary.Month = {
+export const jan: Lectionary.Month = {
     morning: {
         1: {
             lesson1: {
@@ -157,7 +157,7 @@ const jan: Lectionary.Month = {
                 full: 'John 5:1–24',
                 book: 'John',
                 chap: '5',
-                verses:'1–24',
+                verses: '1–24',
                 abbr: false,
                 isApocrypha: false
             }
@@ -175,7 +175,7 @@ const jan: Lectionary.Month = {
                 full: 'John 5:25ff',
                 book: 'John',
                 chap: '5',
-                verses:'25ff',
+                verses: '25ff',
                 abbr: false,
                 isApocrypha: false
             }
@@ -211,7 +211,7 @@ const jan: Lectionary.Month = {
                 full: 'John 6:22–40',
                 book: 'John',
                 chap: '6',
-                verses:'22–40',
+                verses: '22–40',
                 abbr: false,
                 isApocrypha: false
             }
@@ -355,7 +355,7 @@ const jan: Lectionary.Month = {
                 full: 'John 10:1–21',
                 book: 'John',
                 chap: '10',
-                verses:'22ff',
+                verses: '22ff',
                 abbr: false,
                 isApocrypha: false
             }
@@ -409,7 +409,7 @@ const jan: Lectionary.Month = {
                 full: 'John 11:45ff',
                 book: 'John',
                 chap: '11',
-                verses:'45ff',
+                verses: '45ff',
                 abbr: false,
                 isApocrypha: false
             }
@@ -1120,5 +1120,3 @@ const jan: Lectionary.Month = {
         },
     }
 };
-
-export default jan;

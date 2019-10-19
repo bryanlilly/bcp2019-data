@@ -1,4 +1,4 @@
-const feb: Lectionary.Month = {
+export const feb: Lectionary.Month = {
     morning: {
         1: {
             lesson1: {
@@ -1048,6 +1048,3 @@ const feb: Lectionary.Month = {
         }
     }
 };
-
-
-export default feb;

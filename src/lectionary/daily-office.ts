@@ -1,17 +1,17 @@
-import jan from './Months/jan';
-import feb from './Months/feb';
-import mar from './Months/mar';
-import apr from './Months/apr';
-import may from './Months/may';
-import jun from './Months/jun';
-import jul from './Months/jul';
-import aug from './Months/aug';
-import sep from './Months/sept';
-import oct from './Months/oct';
-import nov from './Months/nov';
-import dec from './Months/dec';
+import { apr } from './Months/apr';
+import { aug } from './Months/aug';
+import { dec } from './Months/dec';
+import { feb } from './Months/feb';
+import { jan } from './Months/jan';
+import { jul } from './Months/jul';
+import { jun } from './Months/jun';
+import { mar } from './Months/mar';
+import { may } from './Months/may';
+import { nov } from './Months/nov';
+import { oct } from './Months/oct';
+import { sept } from './Months/sept';
 
-export default {
+export const DailyOfficeLectionary = {
     OneYear: {
         0: jan,
         1: feb,
@@ -21,7 +21,7 @@ export default {
         5: jun,
         6: jul,
         7: aug,
-        8: sep,
+        8: sept,
         9: oct,
         10: nov,
         11: dec
@@ -36,7 +36,7 @@ export default {
             5: jun.morning,
             6: jul.morning,
             7: aug.morning,
-            8: sep.morning,
+            8: sept.morning,
             9: oct.morning,
             10: nov.morning,
             11: dec.morning
@@ -50,7 +50,7 @@ export default {
             5: jun.evening,
             6: jul.evening,
             7: aug.evening,
-            8: sep.evening,
+            8: sept.evening,
             9: oct.evening,
             10: nov.evening,
             11: dec.evening

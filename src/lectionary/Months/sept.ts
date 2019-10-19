@@ -1,4 +1,4 @@
-const sept: Lectionary.Month = {
+export const sept: Lectionary.Month = {
     morning: {
         1: {
             lesson1: {
@@ -1204,6 +1204,4 @@ const sept: Lectionary.Month = {
     //     morning: { lesson1: '2 Chron 16', lesson2: 'Jas 4' },
     //     evening: { lesson1: 'Zech 10', lesson2: 'Matt 21:23ff' }
     // }
-}
-
-export default sept;
+};
