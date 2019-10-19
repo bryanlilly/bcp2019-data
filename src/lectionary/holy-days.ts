@@ -104,10 +104,422 @@ export const HolyDays = {
             } as Lectionary.Lesson
         }
     } as Lectionary.EucharistLessons,
-    // christmasII: {} as Lectionary.EucharistLessons,
-    // christmasIII: {} as Lectionary.EucharistLessons,
-    // circumcisionAndNameOfChrist: {} as Lectionary.EucharistLessons,
-    // epiphany: {} as Lectionary.EucharistLessons,
+    christmasII: {
+        a: {
+            oldtestament: {
+                full: 'Isaiah 62:6–12',
+                book: 'Isaiah',
+                chap: '62',
+                verses: '6–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 97',
+                book: 'Psalm',
+                chap: '97',
+                verses: null,
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Titus 3:4–7',
+                book: 'Titus ',
+                chap: '3',
+                verses: '4–7',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Luke 2:1–20',
+                book: 'Luke',
+                chap: '2',
+                verses: '1–20',
+                abbr: '1–14',
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+        b: {
+            oldtestament: {
+                full: 'Isaiah 62:6–12',
+                book: 'Isaiah',
+                chap: '62',
+                verses: '6–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 97',
+                book: 'Psalm',
+                chap: '97',
+                verses: null,
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Titus 3:4–7',
+                book: 'Titus ',
+                chap: '3',
+                verses: '4–7',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Luke 2:1–20',
+                book: 'Luke',
+                chap: '2',
+                verses: '1–20',
+                abbr: '1–14',
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+        c: {
+            oldtestament: {
+                full: 'Isaiah 62:6–12',
+                book: 'Isaiah',
+                chap: '62',
+                verses: '6–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 97',
+                book: 'Psalm',
+                chap: '97',
+                verses: null,
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Titus 3:4–7',
+                book: 'Titus ',
+                chap: '3',
+                verses: '4–7',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Luke 2:1–20',
+                book: 'Luke',
+                chap: '2',
+                verses: '1–20',
+                abbr: '1–14',
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+    } as Lectionary.EucharistLessons,
+    christmasIII: {
+        a: {
+            oldtestament: {
+                full: 'Isaiah 53:7–12',
+                book: 'Isaiah',
+                chap: '53',
+                verses: '7–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 98',
+                book: 'Psalm',
+                chap: '98',
+                verses: null,
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Hebrews 1:1–12',
+                book: 'Hebrews',
+                chap: '1',
+                verses: '1–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'John 1:1–18',
+                book: 'John',
+                chap: '1',
+                verses: '1–18',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+        b: {
+            oldtestament: {
+                full: 'Isaiah 53:7–12',
+                book: 'Isaiah',
+                chap: '53',
+                verses: '7–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 98',
+                book: 'Psalm',
+                chap: '98',
+                verses: null,
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Hebrews 1:1–12',
+                book: 'Hebrews',
+                chap: '1',
+                verses: '1–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'John 1:1–18',
+                book: 'John',
+                chap: '1',
+                verses: '1–18',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+        c: {
+            oldtestament: {
+                full: 'Isaiah 53:7–12',
+                book: 'Isaiah',
+                chap: '53',
+                verses: '7–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 98',
+                book: 'Psalm',
+                chap: '98',
+                verses: null,
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Hebrews 1:1–12',
+                book: 'Hebrews',
+                chap: '1',
+                verses: '1–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'John 1:1–18',
+                book: 'John',
+                chap: '1',
+                verses: '1–18',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        }
+    } as Lectionary.EucharistLessons,
+    circumcisionAndNameOfChrist: {
+        a: {
+            oldtestament: {
+                full: 'Exodus 34:1–9',
+                book: 'Exodus',
+                chap: '34',
+                verses: '1–9',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 8',
+                book: 'Psalm',
+                chap: '8',
+                verses: '',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Romans 1:1–7',
+                book: 'Romans',
+                chap: '1',
+                verses: '1–7',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Luke 2:15–21',
+                book: 'Luke',
+                chap: '2',
+                verses: '15–21',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+        b: {
+            oldtestament: {
+                full: 'Exodus 34:1–9',
+                book: 'Exodus',
+                chap: '34',
+                verses: '1–9',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 8',
+                book: 'Psalm',
+                chap: '8',
+                verses: '',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Romans 1:1–7',
+                book: 'Romans',
+                chap: '1',
+                verses: '1–7',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Luke 2:15–21',
+                book: 'Luke',
+                chap: '2',
+                verses: '15–21',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+        c: {
+            oldtestament: {
+                full: 'Exodus 34:1–9',
+                book: 'Exodus',
+                chap: '34',
+                verses: '1–9',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 8',
+                book: 'Psalm',
+                chap: '8',
+                verses: '',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Romans 1:1–7',
+                book: 'Romans',
+                chap: '1',
+                verses: '1–7',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Luke 2:15–21',
+                book: 'Luke',
+                chap: '2',
+                verses: '15–21',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        }
+    } as Lectionary.EucharistLessons,
+    epiphany: {
+        a: {
+            oldtestament: {
+                full: 'Isaiah 60:1–9',
+                book: 'Isaiah',
+                chap: '60',
+                verses: '1–9',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 72',
+                book: 'Psalm',
+                chap: '72',
+                verses: null,
+                abbr: '1–11',
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Ephesians 3:1–13 ',
+                book: 'Ephesians',
+                chap: '3',
+                verses: '1–13   ',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Matthew 2:1–12',
+                book: 'Matthew',
+                chap: '2',
+                verses: '1–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+        b: {
+            oldtestament: {
+                full: 'Isaiah 60:1–9',
+                book: 'Isaiah',
+                chap: '60',
+                verses: '1–9',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 72',
+                book: 'Psalm',
+                chap: '72',
+                verses: null,
+                abbr: '1–11',
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Ephesians 3:1–13 ',
+                book: 'Ephesians',
+                chap: '3',
+                verses: '1–13   ',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Matthew 2:1–12',
+                book: 'Matthew',
+                chap: '2',
+                verses: '1–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        },
+        c: {
+            oldtestament: {
+                full: 'Isaiah 60:1–9',
+                book: 'Isaiah',
+                chap: '60',
+                verses: '1–9',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 72',
+                book: 'Psalm',
+                chap: '72',
+                verses: null,
+                abbr: '1–11',
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: 'Ephesians 3:1–13 ',
+                book: 'Ephesians',
+                chap: '3',
+                verses: '1–13   ',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'Matthew 2:1–12',
+                book: 'Matthew',
+                chap: '2',
+                verses: '1–12',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson
+        }
+    } as Lectionary.EucharistLessons,
     presentationOfChrist: {
         a: {
             oldtestament: {
