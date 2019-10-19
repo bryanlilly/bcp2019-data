@@ -1,4 +1,4 @@
-const BlessTheLord: VersicleLike = [
+export const BenedicamusDomino: Versicles = [
     {
         speaker: 'officiant',
         text: 'Let us bless the Lord;'
@@ -8,5 +8,3 @@ const BlessTheLord: VersicleLike = [
         text: 'Thanks be to God.'
     },
 ];
-
-export default BlessTheLord;

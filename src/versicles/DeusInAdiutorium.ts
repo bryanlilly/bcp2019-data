@@ -1,4 +1,4 @@
-const DeusInAdiutorium: VersicleLike = [
+export const DeusInAdiutorium: Versicles = [
     {
         speaker: 'officiant',
         text: 'O God, make speed to save us;'
@@ -8,5 +8,3 @@ const DeusInAdiutorium: VersicleLike = [
         text: 'O Lord, make haste to help us.'
     },
 ];
-
-export default DeusInAdiutorium;

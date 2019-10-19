@@ -1,4 +1,4 @@
-const Jubilate: Canticle = {
+export const Jubilate: Canticle = {
     id: 'jubilate',
     title: 'Jubilate',
     englishTitle: 'Be Joyful',
@@ -22,5 +22,3 @@ const Jubilate: Canticle = {
         }
     ]
 };
-
-export default Jubilate;

@@ -1,5 +1,5 @@
-const Kyrie = {
-    traditional: <VersicleLike> [
+export const Kyrie = {
+    traditional: [
         {
             speaker: 'officiant',
             text: 'Lord, have mercy upon us.'
@@ -12,8 +12,8 @@ const Kyrie = {
             speaker: 'officiant',
             text: 'Lord, have mercy upon us.'
         }
-    ],
-    contemporary: <VersicleLike> [
+    ] as Versicles,
+    contemporary: [
         {
             speaker: 'officiant',
             text: 'Lord, have mercy'
@@ -26,7 +26,5 @@ const Kyrie = {
             speaker: 'officiant',
             text: 'Lord, have mercy.'
         }
-    ]
+    ] as Versicles
 };
-
-export default Kyrie;

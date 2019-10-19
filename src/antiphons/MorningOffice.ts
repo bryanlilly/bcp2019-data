@@ -1,71 +1,121 @@
-const MorningOffice = {
-    ordinary: <VersicleLike[]> [
+const peopleOrdinary: VersicleResponse = {
+    speaker: 'people',
+    text: 'O come, let us adore him.'
+};
+const peopleAlleluia: VersicleResponse = {
+    speaker: 'people',
+    text: 'O come, let us adore him. Alleluia.'
+};
+
+export const MorningOffice = {
+    all: [
         [
             {
                 speaker: 'officiant',
                 text: 'The earth is the Lord\'s: *'
             },
-            {
-                speaker: 'people',
-                text: 'O come, let us adore him.'
-            }
+            { peopleOrdinary }
         ],
         [
             {
                 speaker: 'officiant',
                 text: 'Worship the Lord in the beauty of holiness: *'
             },
-            {
-                speaker: 'people',
-                text: 'O come, let us adore him.'
-            }
+            { peopleOrdinary }
         ],
         [
             {
                 speaker: 'officiant',
                 text: 'The earth is the Lord\'s:'
             },
-            {
-                speaker: 'people',
-                text: 'O come, let us adore him.'
-            }
+            { peopleOrdinary }
         ]
     ],
-    christmas: <VersicleLike> [
-        {
-            speaker: 'officiant',
-            text: 'Alleluia, to us a child is born: *'
-        }
-    ],
-    epiphany: <VersicleLike> [
-        {
-            speaker: 'officiant',
-            text: 'The Lord has shown forth his glory: *'
-        }
-    ],
-    transfiguration: <VersicleLike> [
-        {
-            speaker: 'officiant',
-            text: 'The Lord has shown forth his glory: *'
-        }
-    ],
-    presentation: <VersicleLike> [
-        {
-            speaker: 'officiant',
-            text: 'The Word was made flesh and dwelt among us: *'
-        }
-    ],
-    annunciation: <VersicleLike> [
-        {
-            speaker: 'officiant',
-            text: 'The Word was made flesh and dwelt among us: *'
-        }
-    ],
-    lent: [],
-    easter: [], // all of easter/until ascension
-    ascension: [], // until pentecost
-    pentecost: [],
-    any: [] // Use in ordinary time, or any other season
-};
+    seasonal: {
+        advent: [
+            {
+                speaker: 'officiant',
+                text: 'Our King and Savior now draws near: *'
+            },
+            { peopleOrdinary }
+        ],
+        christmas: [
+            {
+                speaker: 'officiant',
+                text: 'Alleluia, to us a child is born: *'
+            },
+            { peopleAlleluia }
+        ],
+        epiphany: [
+            {
+                speaker: 'officiant',
+                text: 'The Lord has shown forth his glory: *'
+            },
+            { peopleOrdinary }
+        ],
+        transfiguration: [
+            {
+                speaker: 'officiant',
+                text: 'The Lord has shown forth his glory: *'
+            },
+            { peopleOrdinary }
+        ],
+        presentation: [
+            {
+                speaker: 'officiant',
+                text: 'The Word was made flesh and dwelt among us: *'
+            },
+            { peopleOrdinary }
+        ],
+        annunciation: [
+            {
+                speaker: 'officiant',
+                text: 'The Word was made flesh and dwelt among us: *'
+            },
+            { peopleOrdinary }
+        ],
+        lent: [
+            {
+                speaker: 'officiant',
+                text: 'The Lord is full of compassion and mercy: *'
+            },
+            { peopleOrdinary }
+        ],
+        easterToAscension: [
+            {
+                speaker: 'officiant',
+                text: 'Alleluia, The Lord is risen indeed: *'
+            },
+            { peopleAlleluia }
 
-export default MorningOffice;
+        ], // all of easter/until ascension
+        ascensionToPentecost: [
+            {
+                speaker: 'officiant',
+                text: 'Alleluia. Christ the Lord has ascended into heaven: *'
+            },
+            { peopleAlleluia }
+        ], // until pentecost
+        pentecost: [
+            {
+                speaker: 'officiant',
+                text: 'Alleluia. The Spirit of the Lord renews the face of the Earth: *'
+            },
+            { peopleAlleluia }
+        ],
+        trinity: [
+            {
+                speaker: 'officiant',
+                text: 'Father, Son, and Holy Spirit, one God: *'
+            },
+            { peopleOrdinary }
+        ],
+        saints: [
+            {
+                speaker: 'officiant',
+                text: 'The Lord is glorious in his saints: *'
+            },
+            { peopleOrdinary },
+        ]
+    }
+};

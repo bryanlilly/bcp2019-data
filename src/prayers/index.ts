@@ -1,11 +1,11 @@
-import Confessions from "./Confessions";
-import GeneralThanksgiving from "./GeneralThanksgiving";
-import LordsPrayer from "./LordsPrayer";
-import StJohnChyrsostom from "./StjohnChrysostom";
+import * as Confessions from './Confessions';
+import { GeneralThanksgiving } from './GeneralThanksgiving';
+import { LordsPrayer } from './LordsPrayer';
+import { StJohnChrysostom } from './StJohnChrysostom';
 
 export default {
     Confessions,
     GeneralThanksgiving,
     LordsPrayer,
-    StJohnChyrsostom
+    StJohnChrysostom
 };

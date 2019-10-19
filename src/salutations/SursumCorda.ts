@@ -1,4 +1,4 @@
-const SursumCorda: VersicleLike = [
+export const SursumCorda: Versicles = [
     {
         speaker: 'officiant',
         text: 'Lift up your hearts.'
@@ -8,5 +8,3 @@ const SursumCorda: VersicleLike = [
         text: 'We lift them up to the Lord.'
     },
 ];
-
-export default SursumCorda;

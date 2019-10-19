@@ -1,5 +1,5 @@
-import MorningOffice from "./MorningOffice";
+import { MorningOffice } from './MorningOffice';
 
-export default {
+export const Antiphons = {
     MorningOffice
-}
+};

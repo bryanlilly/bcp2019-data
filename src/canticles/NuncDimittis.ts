@@ -1,4 +1,4 @@
-const NuncDimittis: Canticle = {
+export const NuncDimittis: Canticle = {
     id: 'nunc-dimittis',
     title: 'Nunc Dimittis',
     englishTitle: 'The Song of Simeon',
@@ -22,5 +22,3 @@ const NuncDimittis: Canticle = {
         }
     ]
 };
-
-export default NuncDimittis;

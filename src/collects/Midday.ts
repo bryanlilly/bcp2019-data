@@ -1,4 +1,4 @@
-const Midday: DailyOfficeCollects = {
+export const Midday: DailyOfficeCollects = {
     daily: [
         {
             id: 0,
@@ -22,5 +22,3 @@ const Midday: DailyOfficeCollects = {
         }
     ]
 };
-
-export default Midday;

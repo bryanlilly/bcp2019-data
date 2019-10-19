@@ -1,29 +1,27 @@
-import Benedictus from "./Benedictus";
-import BenedictusEsDomine from "./BenedictusEsDomine";
-import Jubilate from "./Jubilate";
-import Magnificat from "./Magnificat";
-import NuncDimittis from "./NuncDimittis";
-import PsachaNostrum from "./PaschaNostrum";
-import PhosHilaron from "./PhosHilaron";
-import TeDeum from "./TeDeum";
-import Venite from "./Venite";
-
-const {
-    VeniteShort,
+import { Benedictus } from './Benedictus';
+import { BenedictusEsDomine } from './BenedictusEsDomine';
+import { Jubilate } from './Jubilate';
+import { Magnificat } from './Magnificat';
+import { NuncDimittis } from './NuncDimittis';
+import { PaschaNostrum } from './PaschaNostrum';
+import { PhosHilaron } from './PhosHilaron';
+import { TeDeum } from './TeDeum';
+import {
     VeniteExtension,
-    VeniteLong
-} = Venite;
+    VeniteLong,
+    VeniteShort
+} from './Venite';
 
-export default {
+export const Canticles: Canticles = {
     Benedictus,
     BenedictusEsDomine,
     Jubilate,
     Magnificat,
     NuncDimittis,
-    PsachaNostrum,
+    PaschaNostrum,
     PhosHilaron,
     TeDeum,
     VeniteShort,
     VeniteExtension,
     VeniteLong
-}
+};

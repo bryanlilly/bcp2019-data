@@ -1,4 +1,4 @@
-const EasterTable = {
+export const EasterTable = {
     2001: 415,
     2002: 331,
     2003: 420,
@@ -120,5 +120,3 @@ const EasterTable = {
     2119: 326,
     2120: 414
 };
-
-export default EasterTable;

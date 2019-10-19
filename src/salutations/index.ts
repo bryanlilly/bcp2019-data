@@ -1,9 +1,11 @@
-import BenedicamusDomino from "./BenedicamusDomino";
-import DominusVobiscum from "./DominusVobiscum";
-import PaxVobiscum from "./PaxVobiscum";
+import { BenedicamusDomino } from './BenedicamusDomino';
+import { DominusVobiscum } from './DominusVobiscum';
+import { PaxVobiscum } from './PaxVobiscum';
+import { SursumCorda } from './SursumCorda';
 
-export default {
+export const Salutations = {
     BenedicamusDomino,
     DominusVobiscum,
-    PaxVobiscum
-}
+    PaxVobiscum,
+    SursumCorda
+};

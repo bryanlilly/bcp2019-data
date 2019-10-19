@@ -1,4 +1,4 @@
-const DominusVobiscum: VersicleLike = [
+export const DominusVobiscum: Versicles = [
     {
         speaker: 'officiant',
         text: 'The Lord be with you.'
@@ -8,5 +8,3 @@ const DominusVobiscum: VersicleLike = [
         text: 'And with your spirit.'
     },
 ];
-
-export default DominusVobiscum;

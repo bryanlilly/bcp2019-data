@@ -1,4 +1,4 @@
-const BenedictusEsDomine: Canticle = {
+export const BenedictusEsDomine: Canticle = {
     id: 'benedictus-es-domine',
     title: 'Benedictus Es, Domine',
     englishTitle: 'A Song of Praise',
@@ -30,5 +30,3 @@ const BenedictusEsDomine: Canticle = {
         }
     ]
 };
-
-export default BenedictusEsDomine;

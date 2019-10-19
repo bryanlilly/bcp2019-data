@@ -1,4 +1,4 @@
-const VeniteShort: Canticle = {
+export const VeniteShort: Canticle = {
     id: 'venite-short',
     title: 'Venite',
     englishTitle: 'O Come',
@@ -35,9 +35,10 @@ const VeniteShort: Canticle = {
     ]
 };
 
-const VeniteExtension = {
-        scriptureRef: '8–11',
-        text: <ICanticleVersicle[]> [
+export const VeniteExtension = {
+    id: 'venite-extension',
+    scriptureRef: '8–11',
+    text: [
         {
             v: 'Today, if you will hear his voice, harden not your hearts *',
             r: 'as in the provocation, and as in the day of temptation in\n\tthe wilderness,'
@@ -57,12 +58,6 @@ const VeniteExtension = {
     ]
 };
 
-const VeniteLong: Canticle = VeniteShort;
+export const VeniteLong: Canticle = VeniteShort;
 VeniteLong.scriptureRef = VeniteLong.scriptureRef + ', ' + VeniteExtension.scriptureRef;
 VeniteLong.text.concat(VeniteExtension.text);
-
-export default {
-    VeniteShort,
-    VeniteExtension,
-    VeniteLong
-};

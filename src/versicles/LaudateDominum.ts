@@ -1,4 +1,4 @@
-const LaudateDominum: VersicleLike = [
+export const LaudateDominum: Versicles = [
     {
         speaker: 'officiant',
         text: 'Praise the Lord.'
@@ -8,5 +8,3 @@ const LaudateDominum: VersicleLike = [
         text: 'The Lord\'s Name be praised.'
     },
 ];
-
-export default LaudateDominum;

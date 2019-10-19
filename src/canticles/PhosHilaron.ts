@@ -1,4 +1,4 @@
-const PhosHilaron: Canticle = {
+export const PhosHilaron: Canticle = {
     id: 'phos-hilaron',
     title: 'Phos Hilaron', // Yes, I know its Greek
     englishTitle: 'O Gladsome Light',
@@ -18,5 +18,3 @@ const PhosHilaron: Canticle = {
         }
     ]
 };
-
-export default PhosHilaron;

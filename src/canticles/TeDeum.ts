@@ -1,4 +1,4 @@
-const TeDeum: Canticle = {
+export const TeDeum: Canticle = {
     id: 'te-deum',
     title: 'Te Deum Laudamus',
     englishTitle: 'We Praise You, O God',
@@ -54,5 +54,3 @@ const TeDeum: Canticle = {
         }
     ]
 };
-
-export default TeDeum;

@@ -1,4 +1,4 @@
-const Magnificat: Canticle = {
+export const Magnificat: Canticle = {
     id: 'magnificat',
     title: 'Magnificat',
     englishTitle: 'The Song of Mary',
@@ -46,5 +46,3 @@ const Magnificat: Canticle = {
         }
     ]
 };
-
-export default Magnificat;

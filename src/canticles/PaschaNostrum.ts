@@ -1,4 +1,4 @@
-const PaschaNostrum: Canticle = {
+export const PaschaNostrum: Canticle = {
     id: 'pascha-nostrum',
     title: 'Pascha Nostrum',
     englishTitle: 'Christ our Passover',
@@ -38,5 +38,3 @@ const PaschaNostrum: Canticle = {
         }
     ]
 };
-
-export default PaschaNostrum;

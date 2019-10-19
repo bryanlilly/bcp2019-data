@@ -1,4 +1,4 @@
-const PaxVobiscum: VersicleLike = [
+export const PaxVobiscum: Versicles = [
     {
         speaker: 'officiant',
         text: 'Peace be with you.'
@@ -8,5 +8,3 @@ const PaxVobiscum: VersicleLike = [
         text: 'And with your spirit.'
     },
 ];
-
-export default PaxVobiscum;

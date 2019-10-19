@@ -1,6 +1,6 @@
-const Benedictus: Canticle = {
+export const Benedictus: Canticle = {
     id: 'benedictus',
-    title: 'Beneictus',
+    title: 'Benedictus',
     englishTitle: 'The Song of Zechaiah',
     scriptureRef: 'Luke 1:68—79',
     text: [
@@ -50,5 +50,3 @@ const Benedictus: Canticle = {
         }
     ]
 };
-
-export default Benedictus;
