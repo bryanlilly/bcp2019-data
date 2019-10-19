@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
+        "esModuleInterop": true,
         "module": "esnext",
         "strictNullChecks": true,
+        "removeComments": true,
         "target": "es5",
         "typeRoots": ["src/types"]
     },
