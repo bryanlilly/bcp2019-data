@@ -718,9 +718,482 @@ export const HolyDays = {
             } as Lectionary.Lesson,
         },
     } as Lectionary.EucharistLessons,
-    // maundyThursday: {} as Lectionary.EucharistLessons,
-    // goodFriday: {} as Lectionary.EucharistLessons,
-    // holySaturday: {} as Lectionary.EucharistLessons,
+    maundyThursday: {
+        a: {
+            oldtestament: {
+                full: 'Exodus 12:1–14',
+                book: 'Exodus',
+                chap: '12',
+                verses: '1–14',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 78:15–26v',
+                book: 'Psalm',
+                chap: '78',
+                verses: '15–26v',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: '1 Corinthians 11:23–34',
+                book: '1 Corinthians',
+                chap: '11',
+                verses: '11:23–34',
+                abbr: '11:23–26',
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: [
+                {
+                    full: 'John 13:1–15',
+                    book: 'John',
+                    chap: '13',
+                    verses: '1–15',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Luke 22:14–30',
+                    book: 'Luke',
+                    chap: '22',
+                    verses: '14–30',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ] as Lectionary.Lesson[],
+        },
+        b: {
+            oldtestament: {
+                full: 'Exodus 12:1–14',
+                book: 'Exodus',
+                chap: '12',
+                verses: '1–14',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: 'Psalm 78:15–26v',
+                book: 'Psalm',
+                chap: '78',
+                verses: '15–26v',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: '1 Corinthians 11:23–34',
+                book: '1 Corinthians',
+                chap: '11',
+                verses: '11:23–34',
+                abbr: '11:23–26',
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: [
+                {
+                    full: 'John 13:1–15',
+                    book: 'John',
+                    chap: '13',
+                    verses: '1–15',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Luke 22:14–30',
+                    book: 'Luke',
+                    chap: '22',
+                    verses: '14–30',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ] as Lectionary.Lesson[],
+        },
+        c: {
+            oldtestament: {
+                full: '',
+                book: '',
+                chap: '',
+                verses: '',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: {
+                full: '',
+                book: '',
+                chap: '',
+                verses: '',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            epistle: {
+                full: '',
+                book: '',
+                chap: '',
+                verses: '',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: '',
+                book: '',
+                chap: '',
+                verses: '',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+        },
+    } as Lectionary.EucharistLessons,
+    goodFriday: {
+        a: {
+            oldtestament: [
+                {
+                    full: 'Genesis 22:1–18',
+                    book: 'Genesis',
+                    chap: '22',
+                    verses: '1–18',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Isaiah 52:13–53:12',
+                    book: 'Isaiah',
+                    chap: '52, 53',
+                    verses: '52:13–53:12',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ] as Lectionary.Lesson[],
+            psalm: [
+                {
+                    full: 'Psalm 22:1–21v',
+                    book: 'Psalm',
+                    chap: '22',
+                    verses: '1–21v',
+                    abbr: '1–11v',
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 40:1–16v',
+                    book: 'Psalm',
+                    chap: '40',
+                    verses: '1–16v',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 69:1–22v',
+                    book: 'Psalm',
+                    chap: '69',
+                    verses: '1–22v',
+                    abbr: false,
+                    isApocrypha: false
+                },
+            ] as Lectionary.Lesson[],
+            epistle: {
+                full: 'Hebrews 10:1–25',
+                book: 'Hebrews',
+                chap: '10',
+                verses: '1–25',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'John 18:1–19:37',
+                book: 'John',
+                chap: '18, 19',
+                verses: '18:1–19:37',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+        },
+        b: {
+            oldtestament: [
+                {
+                    full: 'Genesis 22:1–18',
+                    book: 'Genesis',
+                    chap: '22',
+                    verses: '1–18',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Isaiah 52:13–53:12',
+                    book: 'Isaiah',
+                    chap: '52, 53',
+                    verses: '52:13–53:12',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ] as Lectionary.Lesson[],
+            psalm: [
+                {
+                    full: 'Psalm 22:1–21v',
+                    book: 'Psalm',
+                    chap: '22',
+                    verses: '1–21v',
+                    abbr: '1–11v',
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 40:1–16v',
+                    book: 'Psalm',
+                    chap: '40',
+                    verses: '1–16v',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 69:1–22v',
+                    book: 'Psalm',
+                    chap: '69',
+                    verses: '1–22v',
+                    abbr: false,
+                    isApocrypha: false
+                },
+            ] as Lectionary.Lesson[],
+            epistle: {
+                full: 'Hebrews 10:1–25',
+                book: 'Hebrews',
+                chap: '10',
+                verses: '1–25',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'John 18:1–19:37',
+                book: 'John',
+                chap: '18, 19',
+                verses: '18:1–19:37',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+        },
+        c: {
+            oldtestament: [
+                {
+                    full: 'Genesis 22:1–18',
+                    book: 'Genesis',
+                    chap: '22',
+                    verses: '1–18',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Isaiah 52:13–53:12',
+                    book: 'Isaiah',
+                    chap: '52, 53',
+                    verses: '52:13–53:12',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ] as Lectionary.Lesson[],
+            psalm: [
+                {
+                    full: 'Psalm 22:1–21v',
+                    book: 'Psalm',
+                    chap: '22',
+                    verses: '1–21v',
+                    abbr: '1–11v',
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 40:1–16v',
+                    book: 'Psalm',
+                    chap: '40',
+                    verses: '1–16v',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 69:1–22v',
+                    book: 'Psalm',
+                    chap: '69',
+                    verses: '1–22v',
+                    abbr: false,
+                    isApocrypha: false
+                },
+            ] as Lectionary.Lesson[],
+            epistle: {
+                full: 'Hebrews 10:1–25',
+                book: 'Hebrews',
+                chap: '10',
+                verses: '1–25',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: {
+                full: 'John 18:1–19:37',
+                book: 'John',
+                chap: '18, 19',
+                verses: '18:1–19:37',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+        },
+    } as Lectionary.EucharistLessons,
+    holySaturday: {
+        a: {
+            oldtestament: {
+                full: 'Job 14:1–17',
+                book: 'Job',
+                chap: '14',
+                verses: '1–17',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: [
+                {
+                    full: 'Psalm 130',
+                    book: 'Psalm',
+                    chap: '130',
+                    verses: null,
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 31:1–6v',
+                    book: 'Psalm',
+                    chap: '31',
+                    verses: '1–6v',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ] as Lectionary.Lesson[],
+            epistle: {
+                full: '1 Peter 4:1–8',
+                book: '1 Peter',
+                chap: '4',
+                verses: '1–8',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: [
+                {
+                    full: 'Matthew 27:57–66',
+                    book: 'Matthew',
+                    chap: '27',
+                    verses: '57–66',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'John 19:38–42',
+                    book: 'John',
+                    chap: '19',
+                    verses: '38–42',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ]as Lectionary.Lesson[],
+        },
+        b: {
+            oldtestament: {
+                full: 'Job 14:1–17',
+                book: 'Job',
+                chap: '14',
+                verses: '1–17',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: [
+                {
+                    full: 'Psalm 130',
+                    book: 'Psalm',
+                    chap: '130',
+                    verses: null,
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 31:1–6v',
+                    book: 'Psalm',
+                    chap: '31',
+                    verses: '1–6v',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ] as Lectionary.Lesson[],
+            epistle: {
+                full: '1 Peter 4:1–8',
+                book: '1 Peter',
+                chap: '4',
+                verses: '1–8',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: [
+                {
+                    full: 'Matthew 27:57–66',
+                    book: 'Matthew',
+                    chap: '27',
+                    verses: '57–66',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'John 19:38–42',
+                    book: 'John',
+                    chap: '19',
+                    verses: '38–42',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ]as Lectionary.Lesson[],
+        },
+        c: {
+            oldtestament: {
+                full: 'Job 14:1–17',
+                book: 'Job',
+                chap: '14',
+                verses: '1–17',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            psalm: [
+                {
+                    full: 'Psalm 130',
+                    book: 'Psalm',
+                    chap: '130',
+                    verses: null,
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'Psalm 31:1–6v',
+                    book: 'Psalm',
+                    chap: '31',
+                    verses: '1–6v',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ] as Lectionary.Lesson[],
+            epistle: {
+                full: '1 Peter 4:1–8',
+                book: '1 Peter',
+                chap: '4',
+                verses: '1–8',
+                abbr: false,
+                isApocrypha: false
+            } as Lectionary.Lesson,
+            gospel: [
+                {
+                    full: 'Matthew 27:57–66',
+                    book: 'Matthew',
+                    chap: '27',
+                    verses: '57–66',
+                    abbr: false,
+                    isApocrypha: false
+                },
+                {
+                    full: 'John 19:38–42',
+                    book: 'John',
+                    chap: '19',
+                    verses: '38–42',
+                    abbr: false,
+                    isApocrypha: false
+                }
+            ]as Lectionary.Lesson[],
+        },
+    } as Lectionary.EucharistLessons,
     // ascension: {} as Lectionary.EucharistLessons,
     // allSaints: {} as Lectionary.EucharistLessons,
 };
