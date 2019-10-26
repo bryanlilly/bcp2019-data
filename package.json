@@ -1,18 +1,27 @@
 {
   "name": "bcp2019-data",
   "version": "1.0.0",
-  "main": "./src/index.js",
+  "main": "./dist/index.min.js",
   "author": "Bryan <lilly.bryan@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
+    "clean": "rm -rf ./dist/compiled && rm -rf ./dist",
+    "ts:build": "yarn clean && yarn lint && ./node_modules/.bin/tsc -p .",
+    "ts:dry-run": "./node_modules/.bin/tsc -p . --noEmit",
     "lint": "./node_modules/.bin/eslint ./src/**/*.ts --color",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "prod": "yarn ts:build && ./node_modules/.bin/webpack --config webpack.config.js"
   },
   "devDependencies": {
+    "@types/node": "^12.11.7",
     "@typescript-eslint/eslint-plugin": "^2.4.0",
     "@typescript-eslint/parser": "^2.4.0",
     "eslint": "^6.5.1",
-    "typescript": "^3.6.4"
+    "requirejs": "^2.3.6",
+    "typescript": "^3.6.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
   }
 }

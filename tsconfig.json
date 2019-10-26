@@ -1,14 +1,29 @@
 {
     "compilerOptions": {
+
+        "baseUrl": ".",
         "esModuleInterop": true,
-        "module": "esnext",
-        "strictNullChecks": true,
+        "declaration": false,
+        "outDir": "dist/compiled",
         "removeComments": true,
-        "target": "es5",
-        "typeRoots": ["src/types"]
+        "moduleResolution": "classic",
+        "strictNullChecks": true,
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/*"
+            ]
+            // "@Types": [
+            //     "src/types/*"
+            // ]
+        },
+        "preserveConstEnums": true,
+        "target": "es3",
+        "traceResolution": true
     },
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "dist"
     ],
     "references": []
 }
