@@ -79,19 +79,19 @@ _NOTE: Structure and file placement may change._
     - [x] ~~Sundays~~ see: b64d48af, a3d419bf, 39074edf, 6914fd72, b4a6fc55, e94d80d0
     - [x] ~~Moveable Holy Days~~ see: b64d58af, 8cf63584,  dff3e25b, 44a41091, ff5bbddc
 
-7. [] Prayers
+7. [ ] Prayers
     - [x] ~~Daily Office~~
     - TBD
 
-8. [] Salutations
+8. [ ] Salutations
     - [x] ~~Daily Office~~
     - TBD
 
-9. [] Scripture
+9. [ ] Scripture
     - [x] ~~Daily Office Opening and Closing~~ see: 0675ea0c
     - TBD
 
-10. [] Versicles
+10. [ ] Versicles
     - [x] ~~Daily Office~~
     - TBD
 
