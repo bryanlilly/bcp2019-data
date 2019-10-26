@@ -1,12 +1,12 @@
 # Book of Common Prayer 2019 Data
-This repository contains the [2019 Book of Common Prayer](https://bcp2019.anglicanchurch.net), released by the [ACNA](http://anglicanchurch.net), modeled as data for consumption in JavaScript projects. The source code is written in [TypeScript](), and compiled into JavaScript, found in the `./dist` directory.
+This repository contains the [2019 Book of Common Prayer](http://bcp2019.anglicanchurch.net), released by the [ACNA](http://anglicanchurch.net), modeled as data for consumption in JavaScript projects. The source code is written in TypeScript ([website](https://www.typescriptlang.org/), [github](https://github.com/Microsoft/TypeScript)), and compiled into JavaScript, found in the `./dist` directory.
 
 The primary intention for this repository is to be used via an API, found [here](#) (coming soon).
 
 Currently, this data represents the Daily Offices, but will be updated in the future with the two Euchariatic rites, Ordination liturgies, etc.
 
 ## Data Documentation
-Full documentation is not yet written for the data, but you can find the definition files in [src/types](bcp2019-data/src/types), which document the code via interfaces and types.
+Full documentation is not yet written for the data, but you can find the definition files in [src/types](./src/types), which document the code via interfaces and types.
 
 ## Data Overview
 ### Calendars and Lectionary
