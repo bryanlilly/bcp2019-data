@@ -1,10 +1,10 @@
-declare interface Collect {
+export interface Collect {
     id: number | string;
     title: string;
     text: string;
 }
 
-declare interface DailyOfficeCollects {
+export interface DailyOfficeCollects {
     daily: Collect[];
     saturday?: Collect;
     missions?: Collect[];

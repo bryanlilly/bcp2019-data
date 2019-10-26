@@ -1,3 +1,5 @@
+import { Canticle } from 'types/canticles/index';
+
 export const PhosHilaron: Canticle = {
     id: 'phos-hilaron',
     title: 'Phos Hilaron', // Yes, I know its Greek

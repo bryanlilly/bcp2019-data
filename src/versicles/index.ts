@@ -4,7 +4,7 @@ import { GloriaPatri, GloriaPatriAlt } from './GloriaPatri';
 import { Kyrie } from './Kyrie';
 import { LaudateDominum } from './LaudateDominum';
 
-export default {
+export const Versicles = {
     GloriaPatri,
     GloriaPatriAlt,
     Kyrie,

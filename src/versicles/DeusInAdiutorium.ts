@@ -1,3 +1,5 @@
+import { Versicles } from 'types/call-and-response/index';
+
 export const DeusInAdiutorium: Versicles = [
     {
         speaker: 'officiant',

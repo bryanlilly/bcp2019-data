@@ -3,9 +3,9 @@ interface Scripture {
     ref: boolean | string;
 }
 
-declare type Scriptures = Scripture[];
+type Scriptures = Scripture[];
 
-declare namespace Scripture {
+export namespace Scripture {
     export interface Seasonal {
         advent?: Scripture | Scriptures;
         christmas?: Scripture | Scriptures;

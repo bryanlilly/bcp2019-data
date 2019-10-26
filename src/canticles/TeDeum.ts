@@ -1,3 +1,5 @@
+import { Canticle } from 'types/canticles/index';
+
 export const TeDeum: Canticle = {
     id: 'te-deum',
     title: 'Te Deum Laudamus',

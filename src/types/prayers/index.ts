@@ -1,4 +1,4 @@
-declare type Prayer = string | {
+export type Prayer = string | {
     traditional: string;
     contemporary: string;
 };

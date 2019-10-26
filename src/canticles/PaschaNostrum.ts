@@ -1,3 +1,5 @@
+import { Canticle } from 'types/canticles/index';
+
 export const PaschaNostrum: Canticle = {
     id: 'pascha-nostrum',
     title: 'Pascha Nostrum',

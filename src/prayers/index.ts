@@ -3,7 +3,7 @@ import { GeneralThanksgiving } from './GeneralThanksgiving';
 import { LordsPrayer } from './LordsPrayer';
 import { StJohnChrysostom } from './StJohnChrysostom';
 
-export default {
+export const Prayers =  {
     Confessions,
     GeneralThanksgiving,
     LordsPrayer,

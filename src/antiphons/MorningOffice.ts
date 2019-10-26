@@ -1,3 +1,5 @@
+import { VersicleResponse } from 'types/call-and-response/index';
+
 const peopleOrdinary: VersicleResponse = {
     speaker: 'people',
     text: 'O come, let us adore him.'

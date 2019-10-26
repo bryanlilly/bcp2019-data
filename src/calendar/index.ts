@@ -1,7 +1,9 @@
-import { BaseCalendar as Base } from './Base';
+import { BaseCalendar } from './Base';
 import { EasterTable } from './EasterTable';
+import { ProperTable } from './ProperTable';
 
 export const Calendar = {
-    Base,
-    EasterTable
+    BaseCalendar,
+    EasterTable,
+    ProperTable
 };

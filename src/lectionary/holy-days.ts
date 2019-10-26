@@ -1,4 +1,5 @@
-import Lectionary from '../types/lectionary';
+import Lectionary from 'types/lectionary';
+
 export const HolyDays = {
     christmasI: {
         a: {

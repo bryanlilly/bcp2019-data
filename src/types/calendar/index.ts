@@ -1,4 +1,4 @@
-declare namespace Calendar {
+export namespace Calendar {
     export const enum Seasons {
         ADVENT = 0,
         CHRISTMAS,
@@ -45,7 +45,6 @@ declare namespace Calendar {
         SAINT,
         NATIONAL
     }
-
     export enum FeastTypeWeights {
         PRINCIPAL = 0,
         HOLY_DAY = 1,
@@ -91,6 +90,7 @@ declare namespace Calendar {
             [day: number]: Calendar.Day;
         };
     }
+
     export interface Year {
         [month: number]: Calendar.Month;
     }
@@ -98,5 +98,3 @@ declare namespace Calendar {
     //     [month: string]: Calendar.Month
     // }
 }
-
-export = Calendar

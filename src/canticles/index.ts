@@ -12,7 +12,7 @@ import {
     VeniteShort
 } from './Venite';
 
-export const Canticles: Canticles = {
+export const Canticles = {
     Benedictus,
     BenedictusEsDomine,
     Jubilate,

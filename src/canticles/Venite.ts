@@ -1,3 +1,5 @@
+import { Canticle } from 'types/canticles/index';
+
 export const VeniteShort: Canticle = {
     id: 'venite-short',
     title: 'Venite',

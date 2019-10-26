@@ -1,4 +1,4 @@
-import Calendar from '../types/calendar';
+import { Calendar } from '../types/calendar/index';
 
 export const BaseCalendar: Calendar.Year = {
     0: {

@@ -1,3 +1,5 @@
+import { Canticle } from 'types/canticles/index';
+
 export const BenedictusEsDomine: Canticle = {
     id: 'benedictus-es-domine',
     title: 'Benedictus Es, Domine',

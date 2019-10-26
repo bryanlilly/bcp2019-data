@@ -1,3 +1,5 @@
+import { Canticle } from 'types/canticles/index';
+
 export const Benedictus: Canticle = {
     id: 'benedictus',
     title: 'Benedictus',

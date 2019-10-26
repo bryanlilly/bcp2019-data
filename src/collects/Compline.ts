@@ -1,3 +1,5 @@
+import { DailyOfficeCollects } from 'types/collects/index';
+
 export const Compline: DailyOfficeCollects = {
     daily: [
         {

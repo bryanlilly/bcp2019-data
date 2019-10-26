@@ -1,3 +1,5 @@
+import { Lectionary } from 'types/lectionary/index';
+
 export const aug: Lectionary.Month = {
     morning: {
         1: {

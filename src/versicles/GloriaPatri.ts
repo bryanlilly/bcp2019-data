@@ -1,3 +1,5 @@
+import { VersicleLike, Versicles } from 'types/call-and-response/index';
+
 export const GloriaPatri: VersicleLike = [
     {
         speaker: 'officiant',

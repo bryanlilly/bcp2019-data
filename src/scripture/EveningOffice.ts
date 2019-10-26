@@ -1,3 +1,5 @@
+import { Scripture } from 'types/scripture/index';
+
 export const EveningOffice: Scripture.DailyOffice = {
     opening: {
         default: [

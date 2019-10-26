@@ -1,6 +1,4 @@
-
-
-declare namespace Lectionary {
+export namespace Lectionary {
 
     export type Lesson = {
         full: string;
@@ -109,5 +107,3 @@ declare namespace Lectionary {
         dec: Lectionary.Month;
     }
 }
-
-export = Lectionary

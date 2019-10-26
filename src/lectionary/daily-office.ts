@@ -11,7 +11,7 @@ import { nov } from './Months/nov';
 import { oct } from './Months/oct';
 import { sept } from './Months/sept';
 
-export const DailyOfficeLectionary = {
+export const DailyOffice = {
     OneYear: {
         0: jan,
         1: feb,

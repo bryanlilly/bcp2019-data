@@ -1,3 +1,5 @@
+import { Canticle } from 'types/canticles/index';
+
 export const NuncDimittis: Canticle = {
     id: 'nunc-dimittis',
     title: 'Nunc Dimittis',
