@@ -41,7 +41,7 @@ _NOTE: Structure and file placement may change._
 
 **Directories:** `canticles`
 
-`canticles` contain the various canticles of the Daily Offices, such as the `Te Deum`, `Magnificat`, and `Nunc Dimittis`.
+`canticles` contain the various canticles of the Daily Offices, such as the _Te Deum_, _Magnificat_, and _Nunc Dimittis_.
 
 ### Creeds
 
