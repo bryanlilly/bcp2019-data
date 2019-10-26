@@ -43,49 +43,56 @@ _NOTE: Structure and file placement may change._
 
 `canticles` contain the various canticles of the Daily Offices, such as the `Te Deum`, `Magnificat`, and `Nunc Dimittis`.
 
+### Creeds
+
+**Directories:** `creeds`
+
+`creeds` contain the creeds of the Church, i.e., the Apostles', Nicean, and Athanasian creeds.
+
 ## Road Map – v1.0.0
 
-1. ~~Antiphons – Daily Office~~
+1. [x] ~~Antiphons – Daily Office~~
 
-2. ~~Calendars~~
-    - ~~Fixed Holidays~~
-    - ~~Easter Table – Used to determine moveable holidays~~
-    - ~~Proper Table – Used to determine weeks between Trinity and Advent~~
+2. [x] ~~Calendars~~
+    - [x] ~~Fixed Holidays~~ see: 7a24f8af, 7ddb6ea9, 4b73f05a, 4d2f4bf4, b8441c5c
+    - [x] ~~Easter Table – Used to determine moveable holidays~~ see: 1cbbc994, 4cba0f7e
+    - [x] ~~Proper Table – Used to determine weeks between Trinity and Advent~~ see: 32b43a18
 
-3. Canticles
-    - Daily Office
+3. [ ] Canticles
+    - [x] ~~Daily Office~~
+    - [ ] Supplemental
+
+4. [ ] Collects
+    - [x] ~~Daily Office Ordinary~~
+    - [ ] Seasonal
+    - [ ] Occaisional
+    - [x] ~~Propers~~ see: 58a4b992
+
+5. [ ] Creeds
+    - [x] ~~Apostles'~~ see: 4a18eba7
+    - [ ] Nicean
+    - [ ] Athanasian
+
+6. [x] ~~Lectionary~~
+    - [x] ~~Daily Office~~ see: 434bdfd4
+    - [x] ~~Psalter~~ see: b8a866cb
+    - [x] ~~Sundays~~ see: b64d48af, a3d419bf, 39074edf, 6914fd72, b4a6fc55, e94d80d0
+    - [x] ~~Moveable Holy Days~~ see: b64d58af, 8cf63584,  dff3e25b, 44a41091, ff5bbddc
+
+7. [] Prayers
+    - [x] ~~Daily Office~~
     - TBD
 
-4. Collects
-    - ~~Daily Office Ordinary~~
-    - Supplemental & Occaisional
-    - Propers
-
-5. Creeds
-    - ~~Apostles'~~
-    - Nicean
-    - Athanasian
-
-6. ~~Lectionary~~
-    - ~~Daily Office~~
-    - ~~Psalter~~
-    - ~~Sundays~~
-    - ~~Moveable Holy Days~~
-
-7. Prayers
-    - ~~Daily Office~~
+8. [] Salutations
+    - [x] ~~Daily Office~~
     - TBD
 
-8. Salutations
-    - ~~Daily Office~~
+9. [] Scripture
+    - [x] ~~Daily Office Opening and Closing~~ see: 0675ea0c
     - TBD
 
-9. Scripture
-    - ~~Daily Office Opening and Closing~~
-    - TBD
-
-10. Versicles
-    - ~~Daily Office~~
+10. [] Versicles
+    - [x] ~~Daily Office~~
     - TBD
 
 Elements for the Eucharistic rites, the Ordinals, etc. will be added in the future, and not necessarily part of the v1 release.
