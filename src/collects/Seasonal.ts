@@ -107,5 +107,36 @@ export const Seasonal = [
         id: 'lentFifthSunday',
         text: 'Almighty God, you alone can bring into order the unruly wills and affections of sinners: Grant your people grace to love what you command and desire that you promise; that, among the swift and varied changes of this world, our hearts may surely there be fixed where true joys are to be found; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever.'
     },
-
+    {
+        id: 'palmSunday',
+        text: 'Almighty and everlasting God, in your tender love for us you sent your Son our Savior Jesus Christ to take upon himself our nature, and to suffer death upon the Cross, giving us the example of his great humility: Mercifully grant that we may walk in the way of his suffering, and come to share in his resurrection; through Jesus Christ our Lord, who lives and reigns with youand the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'holyweekMonday',
+        text: 'Almighty God, whose most dear Son went not up to joy but first he suffered pain, and entered not into glory before he was crucified: Mercifully grant that we, walking in the way of the Cross, may find it none other than the way of life and peace; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'holyweekTuesday',
+        text: 'O Lord our God, whose blessed Son gave his back to be whipped and did not hide his face from shame and spitting: Give us grace to accept joyfully the sufferings of the present time, confident of the glory that shall be revealed; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever. '
+    },
+    {
+        id: 'holyweekWednesday',
+        text: 'Assist us mercifully with your grace, Lord God of our salvation, that we may enter with joy upon the meditation of those mighty acts by which you have promised us life and immortality; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'maundyThursday',
+        text: 'Almighty Father, whose most dear Son, on the night before he suffered, instituted the Sacrament of his Body and Blood: Mercifully grant that we may receive it in thankful rememberance of Jesus Christ our Savior, who in these Holy mysteries gives us a pledge of eternal life; and who lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'goodFriday',
+        text: 'Almighty God, we beseech you graciously to behold this your family, for whom our Lord Jesus Christ was willing to be betrayed and given into the hands of sinners, and to suffer death upon the Cross; who now lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'holySaturdayI',
+        text: 'O God, Creator of heaven and earth: Grant that, as the crucified body of your dear Son was laid in the tomb and rested on this holy Sabbath, so we may await with him the coming of the third day, and rise with him to newness of life; through Jesus Christ our Lord.'
+    },
+    {
+        id: 'holySaturdayII',
+        text: 'O God of the living, on this day your Son our Savior descended to the place of the dead; Look with kindness on all of us who wait in hope for liberation from the corruption of sin and death, and give us a share in the glory of the children of God; through Jesus Christ your Son our Lord.'
+    }
 ];
