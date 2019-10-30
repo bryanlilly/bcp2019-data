@@ -138,5 +138,61 @@ export const Seasonal = [
     {
         id: 'holySaturdayII',
         text: 'O God of the living, on this day your Son our Savior descended to the place of the dead; Look with kindness on all of us who wait in hope for liberation from the corruption of sin and death, and give us a share in the glory of the children of God; through Jesus Christ your Son our Lord.'
+    },
+    {
+        id: 'easterEve',
+        text: 'O God, you made this most holy night to shine with the glory of the Lord\'s resurrection: Stir up in your Church that Spirit of adoption which is given to us in Baptism, that we, being renewed both in body and mind, may worship you in sincerity and truth; through Jesus Christ our Lord, who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever.'
+    },
+    {
+        id: 'easterI',
+        text: 'Almighty God, who through your only-begotten Son Jesus Christ overcame death and opened to us the gate of everlasting life: Grant that we, who celebrate with joy the day of the Lord\'s resurrection, may, by your life-giving Spirit, be delivered from sin and raised from death; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever.'
+    },
+    {
+        id: 'easterII',
+        text: 'O God, who for our redemption gave your only-begotten Son to die upon the Cross, and by his glorious resurrection delivered us from the devil and the power of death: Grant us grace to die daily to sin, that we may live with him in the joy of his resurrection; who lives and reigns with you and the Holy Spirit, now and for ever.'
+    },
+    {
+        id: 'mondayAfterEaster',
+        text: 'Grant, we pray, Almighty God, that we who celebrate with reverence the Paschal feast may be made worthy to attain to everlasting joys; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever.'
+    },
+    {
+        id: 'tuesdayAfterEaster',
+        text: 'O God, who by the glorious resurrection of your Son Jesus Christ destroyed death and brought life and immortality to light: Grant that we, who have been raised with him, may abide in his presence and rejoice in the hope of eternal glory; through Jesus Christ our Lord, to whom, with you and the Holy Spirit, be honor and glory, now and for ever.'
+    },
+    {
+        id: 'wednesdayAfterEaster',
+        text: 'O God, whose blessed Son made himself known to his disciples in the breaking of bread: Open the eyes of our faith, that we may behold him in the fullness of his redeeming work; who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever.'
+    },
+    {
+        id: 'thursdayAfterEaster',
+        text: 'Almighty God, you show those in error the light of your truth so that they may turn to the path of righteousness: Grant that all who have been reborn into the felloship of Christ\'s Body may show forth in their lives what they profess by their faith; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever.'
+    },
+    {
+        id: 'fridayAfterEaster',
+        text: 'Almighty Father, who gave your only Son to die for our sins and to rise for our justification: Give us grace so to put away the leaven of malice and wickedness, that we may always serve you in purity of life; through Jesus Christ your Son our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever.'
+    },
+    {
+        id: 'saturdayAfterEaster',
+        text: 'Heavenly Father, you have delivered us from the dominion of sin and death, and brought us into the kingdom of your beloved Son: Grant that, as by his death he has called us to life, so by his love he may raise us to eternal joys; who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever.'
+    },
+    {
+        id: 'easterSecondSunday',
+        text: 'Almighty and everlasting God, who in the Paschal mystery established the new covenant of reconciliation: Grant that all who have been reborn into the fellowship of Christ\'s Body may show forth in their lives what they profess by their faith; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'easterThirdSunday',
+        text: 'Almighty God, you have your only Son to be for us both a sacrifice for sin and an example of Godly living: Give us grace thankfully to receive his inestimable benefits, and daily to follow the blessed steps of his most holy life; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'easterFourthSunday',
+        text: 'O God, whose Son Jesus Christ is the Good Shepherd of your people: Grant that, when we hear his voice, we may know him who calls us each by name, and follow where he leads; who, with you and the Holy Spirit, lives and reigns, one God, for ever and ever.'
+    },
+    {
+        id: 'easterFifthSunday',
+        text: 'Almighty God, whom truly to know is everlasting life: Grant us so perfectly to know your Son Jesus Christ to be the way, the truth, and the life, that we may steadfastly follow his steps in the way that leads to eternal glory; through Jesus Christ your Son our Lord, who lives and reigns with you, in the unity of the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'easterSixthSunday',
+        text: 'O God, you have prepared for those who love you such good things as surpass our understanding: Pour into our hearts such love towards you, that we, loving you in all things and above all things, may obtain your promises, which exceed all that we can desire; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
     }
 ];
