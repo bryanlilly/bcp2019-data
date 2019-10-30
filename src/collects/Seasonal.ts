@@ -194,5 +194,25 @@ export const Seasonal = [
     {
         id: 'easterSixthSunday',
         text: 'O God, you have prepared for those who love you such good things as surpass our understanding: Pour into our hearts such love towards you, that we, loving you in all things and above all things, may obtain your promises, which exceed all that we can desire; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'ascension',
+        text: 'Almighty God, whose only-begotten Son our Lord Jesus Christ ascended into heaven: May our hearts and minds also there ascend, and with him continually dwell; who lives and reigns with you and the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'ascensionSunday',
+        text: 'O God, the King of glory, you have exalted your only Son Jesus Christ with great triumph to your kingdom in heaven: Do not leave us comfortless, but send us your Holy Spirit to strengthen us, and exalt us to that place where our Savior Christ has gone before; who lives and reigns with you and the Holy Spirit, one God, in glory everlasting.'
+    },
+    {
+        id: 'pentecostI',
+        text: 'AlmightyGod, on this day, through the outpuring of the Holy Spirit, you revealed the way of eternal life to every race and nation; Pour out this gift anew, that by the preaching of the Gospel your salvation may reach to the ends of the earth; through Jesus Christ our Lord, who lives and reigns with you, in the unity of the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'pentecostII',
+        text: 'O God, who on this day taught the hearts of your faithful people by sending to them the light of your Holy Spirit: Grant us by the same Spirit to have a right judgment in all things, and evermore to rejoice in his holy comfort; through Jesus Christ your Son our Lord, who lives and reigns with you, in the unity f the Holy Spirit, one God, for ever and ever.'
+    },
+    {
+        id: 'trinity',
+        text: 'Almighty and everlasting God, you have given to us your servants grace, by the confession of a true faith, to acknowledge the glory of the eternal Trinity, and in the power of your divine Majesty to worship the Unity: Keep us steadfast in this faith and worship, and bring us at last to see you in your one and eternal glory, O Father; who with the Son and the Holy Spirit live and reign, one God, for ever and ever.'
     }
 ];
