@@ -64,7 +64,7 @@ _NOTE: Structure and file placement may change._
 
 4. [ ] Collects
     - [x] ~~Daily Office Ordinary~~
-    - [ ] Seasonal
+    - [x] ~~Seasonal~~ see: e6ed58ce, 2490588b, c1ff4589, eb556e58, eb556e58
     - [ ] Occaisional
     - [x] ~~Propers~~ see: 58a4b992
 
